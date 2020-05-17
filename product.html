@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>产品中心 瑞莱生物工程（深圳）有限公司</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+    <link rel="stylesheet" href="/css/fsSytle.css">
+    <script src="/js/jquery1.42.min.js"></script>
+    <script src="/js/jquery-2.1.1.min.js"></script>
+    <link href="/css/swiper.min.css" rel="stylesheet" />
+    <script src="/js/swiper.min.js"></script>
+    <link href="/css/page.css" rel="stylesheet" />
+    <meta name="viewport" content="width=800px,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+
+</head>
+<body>
+
+    
+
+        
+<script type="text/javascript">
+    $(function () {
+        $("#product").addClass("fsSel");
+
+        var cid="";
+        if(cid=="556")
+        {
+            showShebei2();
+        }
+    });
+</script>
+<div class="indexTopNav innerTopNav">
+    <div class="fsBody1440">
+        <a href="/" class="fsLeft">
+            <img src="/images/logo.png">
+        </a>
+        <div class="fsMid">
+            <a href="/" id="home">
+                首页
+            </a>
+            <div class="fsPart" id="about">
+                <a href="/about" class="aaa"> 关于瑞莱</a>
+                <div class="xiala">
+                    <a href="/about#jianjie" class="fsSel">
+                        企业简介
+                    </a>
+                    <a href="/about#licheng">
+                        发展历程
+                    </a>
+                    <a href="/about#chuangshi">
+                        企业创始
+                    </a>
+                    <a href="/about#shiming">
+                        企业使命
+                    </a>
+                    <a href="/about#rongyu">
+                        资质荣誉
+                    </a>
+                </div>
+            </div>
+            <div class="fsPart" id="product">
+                <a href="/product" class="aaa">
+                    产品中心
+                </a>
+                <div class="xiala">
+                    <a href="/product" class="fsSel">
+                        POCT产品
+                    </a>
+                    <a href="/product/qd">
+                        创新产品
+                    </a>
+                </div>
+            </div>
+            <div class="fsPart" id="service">
+                <a href="/service" class="aaa">
+                    综合服务
+                </a>
+                <div class="xiala">
+                    <a href="/service" class="fsSel">
+                        快速检测解决方案
+                    </a>
+                    <a href="/service/xueshu">
+                        学术资料
+                    </a>
+                    <a href="/service/wenti">
+                        专业技术服务
+                    </a>
+
+                </div>
+            </div>
+            <div class="fsPart" id="news">
+                <a href="/news" class="aaa">
+                    新闻动态
+                </a>
+                <div class="xiala">
+                    <a href="/news?cid=543" class="fsSel">
+                        瑞莱动态
+                    </a>
+                    <a href="/news?cid=544">
+                        行业新闻
+                    </a>
+                    <a href="/news?cid=545">
+                        全球新闻
+                    </a>
+                </div>
+            </div>
+            <div class="fsPart" id="join">
+                <a href="/joinus" class="aaa">
+                    加入瑞莱
+                </a>
+                <div class="xiala">
+                    <a href="/joinus" class="fsSel">
+                        瑞莱生活
+                    </a>
+                    <a href="/joinus/xinchou">
+                        薪酬福利
+                    </a>
+                    <a href="/joinus/zhaoxian?type=1">
+                        招贤纳士
+                    </a>
+                </div>
+            </div>
+
+            <a href="/contactus" id="contact">
+                联系我们
+            </a>
+        </div>
+        <script>
+            $(".indexTopNav .fsPart").mouseenter(function () {
+                $(this).children(".xiala").stop(true, true).slideDown(600);
+            })
+            $(".indexTopNav .fsPart").mouseleave(function () {
+                $(this).children(".xiala").stop(true, true).slideUp(600);
+            })
+        </script>
+
+        <div class="fsRight">
+            <div style="cursor:pointer" id="sss"> <img src="/images/wx.png" class="wx"></div>
+            <div style="cursor:pointer" class="iooi">
+                <img src="/images/xl_cn.png" class="xl">
+                <ul>
+                    <li>
+                        <a href="/en">
+                            <img src="/images/enL.jpg" />
+                            <p>英语</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ru">
+                            <img src="/images/ruL.jpg" />
+                            <p>俄语</p>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/es">
+                            <img src="/images/esL.jpg" />
+                            <p>西班牙语</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <style>
+               .iooi {
+                        position:relative;
+                    }
+
+                    .iooi ul {
+                        width: 100px;
+                        height: auto;
+                        border: 1px solid #ddd;
+                        background: #eee;
+                        display: none;
+                        position:absolute;
+                        top:40px;
+                        left:-5px;
+                    }
+
+                        .iooi ul li {
+                            width: 100%;
+                            height: 40px;
+                            border-bottom: 1px solid #fff;
+                        }
+
+                            .iooi ul li a {
+                                text-align: center;
+                                text-transform: uppercase;
+                                display:flex;
+                                align-items:center;
+                               flex:1;
+                               padding:0 5px;
+                                height:40px;
+                            }
+
+                            .iooi ul li a img {
+                                height:20px;
+                                margin-right:4px;
+                            }
+
+                            .iooi ul li a p {
+                                font-size:13px;
+                                line-height:40px;
+                            }
+            </style>
+            <script>
+                $(".iooi").click(function () {
+                    $(this).children("ul").toggle();
+                })
+
+                $(window).scroll(function () {
+                    if (!$(".iooi ul").is(':hidden')) {
+                        $(".iooi").children("ul").hide();
+                    }
+                });
+            </script>
+
+        </div>
+
+        <form action="/search/toSearch" id="form_search">
+            <div class="ssssView">
+                <input type="text" name="keyword" id="keyword" value="" placeholder="请输入搜索内容" />
+                <p>搜索</p>
+            </div>
+        </form>
+        <script>
+            $("#sss").click(function () {
+                $(".ssssView").slideToggle();
+
+                $(".ssssView p").click(function () {
+                    var keyword = $("#keyword").val();
+                    if (keyword == "") {
+                        alert("请填写搜索关键词");
+                    }
+                    else {
+                        $("#form_search").submit();
+                    }
+                });
+
+            })
+        </script>
+
+        <div class="menu_m" id="menu"><i></i><i></i><i></i></div>
+        <div class="nav_main">
+            <div class="inner">
+                <div class="d" style="width: 200px;">
+                    <a href="/" id="home">
+                        <h3>首页</h3>
+                    </a>
+                </div>
+                <div class="d">
+                    <a href="/about" class="aaa">
+                        <h3>关于瑞莱</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/about#jianjie" class="fsSel">
+                                企业简介
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about#licheng">
+                                发展历程
+                            </a>
+                        </li>
+                        <br />
+                        <li>
+                            <a href="/about#chuangshi">
+                                企业创始
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about#shiming">
+                                企业使命
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about#rongyu">
+                                资质荣誉
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d">
+                    <a href="/product" class="aaa">
+                        <h3>产品中心</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/product" class="fsSel">
+                                POCT产品
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/product/qd">
+                                创新产品
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d">
+                    <a href="/service" class="aaa">
+                        <h3>综合服务</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/service" class="fsSel">
+                                快速检测解决方案
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/service/xueshu">
+                                学术资料
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/service/wenti">
+                                专业技术服务
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d">
+                    <a href="/news" class="aaa">
+                        <h3>新闻动态</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/news?cid=543" class="fsSel">
+                                瑞莱动态
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/news?cid=544">
+                                行业新闻
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/news?cid=545">
+                                全球新闻
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d">
+                    <a href="/joinus" class="aaa">
+                        <h3>加入瑞莱</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/joinus" class="fsSel">
+                                瑞莱生活
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/joinus/xinchou">
+                                薪酬福利
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/joinus/zhaoxian?type=1">
+                                招贤纳士
+                            </a>
+                        </li>
+                    </ul>   
+                </div>
+                <div class="d">
+                    <a href="/contactus" id="contact">
+                        <h3>联系我们</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="/js/global.js"></script>
+
+
+    </div>
+</div>
+
+
+<div class="innerBanner superInnerBanner">
+    <div class="fsMeng fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        <p class="fsCnTitle ooo">POCT产品</p>
+        <p class="fsCnText">让诊断更准确，让服务更便捷，让医疗更可靠</p>
+        <div class="xjxj"></div>
+    </div>
+    <img src="/images/proBanner.jpg">
+</div>
+
+<div class="innerBody proCenterBody">
+    <div class="fsBody1440">
+        <div class="innerNav" id="innerNav">
+            <a href="/product#shebei" class="fsSel">
+                诊断设备
+            </a>
+            <a href="/product#shiji">
+                诊断试剂
+            </a>
+            <a href="/product#zhiliang">
+                质量控制
+            </a>
+        </div>
+    </div>
+
+    <div class="fsPart1" id="shebei">
+        <div class="fsBody1440">
+            <div class="fsLeft">
+                <p class="fsCnTitle">诊断设备</p>
+                <p class="fsEnTitle">Diagnostic equipment</p>
+                <div class="fsHeng"></div>
+                <a href="javascript:showShebei1();" id="shebei1_nav" class="fsSel">
+                    <div>
+                        <p class="fsCnText">荧光平台</p>
+                        <p class="fsEnText">Immunofluorescent Platform</p>
+                    </div>
+                    <div class="main-scroll-motion">
+                        <img src="/images/jt_un.png" class="fsImg1">
+                        <img src="/images/jt_sel.png" class="fsImg2">
+                    </div>
+                </a>
+                <a href="javascript:showShebei2();" id="shebei2_nav">
+                    <div>
+                        <p class="fsCnText">双向侧流平台</p>
+                        <p class="fsEnText">Two-way lateral flow Platform</p>
+                    </div>
+                    <div class="main-scroll-motion">
+                        <img src="/images/jt_un.png" class="fsImg1">
+                        <img src="/images/jt_sel.png" class="fsImg2">
+                    </div>
+                </a>
+            </div>
+            <div class="fsRight" id="shebei1">
+
+                        <a target="_blank" href="/product/pdetail?pid=1016" class="fsTop" id="prolink1">
+                            <div style="position:relative;">
+                                <img src="/Upload/20190306/BF5CC6D444D784F7AE0B865ED2B00A7D.jpg" id="proo1">
+                                
+                                <div class="jiujiu">
+                                    <div class="point-area">
+                                        <div class="point point-dot"></div>
+                                        <div class="point point-10"></div>
+                                        <div class="point point-40"></div>
+                                        <div class="point point-shadow point-80"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hg" id="texing1">
+                                <div><img src="/images/ks301.png"/><p>快速检测</p></div><div><img src="/images/jz301.png"/><p>精准温控</p></div><div><img src="/images/lj301.png"/><p>连接多样</p></div><div><img src="/images/zd301.png"/><p>自动识别</p></div>
+                            </div>
+                        </a>
+
+
+
+                <div class="fsBottom">
+                        <div class="fsPart fsSel" id="po_0">
+                            <a href="/product/pdetail?pid=1016" target="_blank" class="imgView">
+                                <div id="htexing" style="display:none;"><div><img src="/images/ks301.png"/><p>快速检测</p></div><div><img src="/images/jz301.png"/><p>精准温控</p></div><div><img src="/images/lj301.png"/><p>连接多样</p></div><div><img src="/images/zd301.png"/><p>自动识别</p></div></div>
+                                <img class="spic" src="/Upload/20190306/BF5CC6D444D784F7AE0B865ED2B00A7D.jpg" id="1016">
+                            </a>
+                            <p>TZ-301</p>
+                        </div>
+                        <div class="fsPart " id="po_1">
+                            <a href="/product/pdetail?pid=1022" target="_blank" class="imgView">
+                                <div id="htexing" style="display:none;"><div><img src="/images/yqImg_06.png"/><p>全自动</p></div><div><img src="/images/yqImg_03.png"/><p>检测方便快捷</p></div><div><img src="/images/yqImg_13.png"/><p>结果准确可靠</p></div><div><img src="/images/yqImg_11.png"/><p>人性化智能配置</p></div></div>
+                                <img class="spic" src="/Upload/20190306/E27B9EAF85EBE0F28DC98E9D455915C6.jpg" id="1022">
+                            </a>
+                            <p>TZ-310</p>
+                        </div>
+                        <div class="fsPart " id="po_2">
+                            <a href="/product/pdetail?pid=1105" target="_blank" class="imgView">
+                                <div id="htexing" style="display:none;"><div><img src="/images/yqImg_06.png"/><p>即时检测</p></div><div><img src="/images/yqImg_03.png"/><p>多样本类型</p></div><div><img src="/images/yqImg_13.png"/><p>智能配置</p></div><div><img src="/images/yqImg_11.png"/><p>多项目组合</p></div></div>
+                                <img class="spic" src="/Upload/20190311/732C937CCB6966D2E9817143A0821681.jpg" id="1105">
+                            </a>
+                            <p>TZ-320</p>
+                        </div>
+
+                </div>
+
+            </div>
+            <div class="fsRight" id="shebei2" style="display:none;">
+                        <a target="_blank" href="/product/pdetail?pid=1107" class="fsTop" id="prolink2">
+                            <div>
+                                <img src="/Upload/20190306/119966D5A4D7970825F87111DE1797FD.jpg" id="proo2">
+                                
+                                <div class="jiujiu">
+                                    <div class="point-area">
+                                        <div class="point point-dot"></div>
+                                        <div class="point point-10"></div>
+                                        <div class="point point-40"></div>
+                                        <div class="point point-shadow point-80"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hg" id="texing2">
+                                <div><img src="/images/xiaoqiao.png"/><p>小巧便携</p></div><div><img src="/images/chijiu.png"/><p>持久续航</p></div><div><img src="/images/kuaisu.png"/><p>检测准确</p></div><p></p>
+                            </div>
+                        </a>
+
+                <div class="fsBottom">
+                        <div class="fsPart fsSel" id="ppo_0">
+                            <a href="/product/pdetail?pid=1107" target="_blank" class="imgView">
+                                <div id="htexing" style="display:none;"><div><img src="/images/xiaoqiao.png"/><p>小巧便携</p></div><div><img src="/images/chijiu.png"/><p>持久续航</p></div><div><img src="/images/kuaisu.png"/><p>检测准确</p></div><p></p></div>
+                                <img class="spic" src="/Upload/20190306/119966D5A4D7970825F87111DE1797FD.jpg" id="1107">
+                            </a>
+                            <p>MINI</p>
+                        </div>
+                        <div class="fsPart " id="ppo_1">
+                            <a href="/product/pdetail?pid=1108" target="_blank" class="imgView">
+                                <div id="htexing" style="display:none;"><div><img src="/images/gaoxiao.png"/><p>快速高效</p></div><div><img src="/images/mokuai.png"/><p>模块化设计</p></div><div><img src="/images/dingliang.png"/><p>定量检测结果准确</p></div><p></p></div>
+                                <img class="spic" src="/Upload/20190306/80966735395AEDDEFB173EFC8698BD12.jpg" id="1108">
+                            </a>
+                            <p>SSJ-2</p>
+                        </div>
+                </div>
+
+            </div>
+            <script>
+
+                var a = 1;
+                var b = 1;
+
+                $(".proCenterBody .fsPart1 .fsBody1440 #shebei1 .fsBottom .fsPart").click(function () {
+                    $(".proCenterBody .fsPart1 .fsBody1440 #shebei1 .fsBottom .fsPart").removeClass("fsSel");
+                    $(this).addClass("fsSel");
+                    var src = $(this).find(".spic").attr("src");
+                    var id = $(this).find(".spic").attr("id");
+                    var texing = $(this).find("#htexing").html();
+                    console.log(texing);
+                    $("#proo1").attr("src", src);
+                    $("#prolink1").attr("href", "/product/pdetail?pid=" + id);
+                    $("#texing1").html(texing);
+                })
+                $(".proCenterBody .fsPart1 .fsBody1440 #shebei2 .fsBottom .fsPart").click(function () {
+                    $(".proCenterBody .fsPart1 .fsBody1440 #shebei2 .fsBottom .fsPart").removeClass("fsSel");
+                    $(this).addClass("fsSel");
+                    var src = $(this).find(".spic").attr("src");
+                    var id = $(this).find(".spic").attr("id");
+                    var texing = $(this).find("#htexing").html();
+                    console.log(id);
+                    $("#proo2").attr("src", src);
+                    $("#prolink2").attr("href", "/product/pdetail?pid=" + id);
+                    $("#texing2").html(texing);
+                })
+
+
+
+                setInterval(function() {
+                    // IE
+                    if(document.all) {
+                        document.getElementById("po_" + a).click();
+                        //document.getElementById("ppo_" + b).click();
+                    }
+                        // 其它浏览器
+                    else {
+                        var e = document.createEvent("MouseEvents");
+                        e.initEvent("click", true, true);
+                        document.getElementById("po_" + a).dispatchEvent(e);
+                        document.getElementById("ppo_" + b).dispatchEvent(e);
+                    }
+
+                    if (b >= parseInt(2) - 1) {
+                        b = 0;
+                    }
+                    else {
+                        b++;
+                    }
+
+                    if (a >= parseInt(3) - 1) {
+                        a = 0;
+                    }
+                    else {
+                        a++;
+                    }
+
+                }, 5000);
+
+
+                function showShebei1() {
+                    $("#shebei1").show();
+                    $("#shebei2").hide();
+                    $("#shebei1_nav").addClass("fsSel");
+                    $("#shebei2_nav").removeClass("fsSel");
+                }
+                function showShebei2() {
+                    $("#shebei2").show();
+                    $("#shebei1").hide();
+                    $("#shebei2_nav").addClass("fsSel");
+                    $("#shebei1_nav").removeClass("fsSel");
+                }
+            </script>
+
+        </div>
+    </div>
+
+    <div class="fsPart2" id="shiji">
+        <img src="/images/zdBgi.jpg" class="noneMaxWidth">
+        <div class="fsBody1440">
+
+            <div class="fsTop">
+                <div class="fsLeft">
+                    <p class="fsCnTitle">诊断试剂</p>
+                    <p class="fsEnTitle">Diagnostic Test Kits</p>
+                    <div class="fsHeng"></div>
+                </div>
+                <div class="fsRight">
+                    <div class="fsBtn fsSel">心肌标志物</div>
+                    <div class="fsBtn">感染炎症</div>
+                    <div class="fsBtn">肾功能</div>
+                </div>
+
+                <div class="xljgd">
+                    <p>了解更多</p>
+                    <img src="images/xs.png" alt="Alternate Text" class="dddd" />
+                </div>
+
+            </div>
+
+            <div class="swiper-container" id="xinji">
+                <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1027"> <img src="/Upload/20190304/76C7FB063674FB804EC9046A9B3279B4.jpg"></a>
+                            </div>
+                            <p>超敏心肌肌钙蛋白I(hs-cTnI)检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1028"> <img src="/Upload/20190304/A5F718024C59D15B0474027B9D3AB17E.jpg"></a>
+                            </div>
+                            <p>肌钙蛋白I（cTnI）检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1029"> <img src="/Upload/20190304/B165B4EBEB667E7EDF2E7B7B62FC8989.jpg"></a>
+                            </div>
+                            <p>肌红蛋白(MYO）检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1030"> <img src="/Upload/20190304/EBE0728CDE343FB6CAD7EBF266B6AA5F.jpg"></a>
+                            </div>
+                            <p>肌酸激酶同工酶(CK-MB)检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1031"> <img src="/Upload/20190304/AED9B8DA1454881245D7096AD9541046.jpg"></a>
+                            </div>
+                            <p>D-二聚体检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1032"> <img src="/Upload/20190304/1B0E59BBEAC2EEC1F1A9C7192B28B873.jpg"></a>
+                            </div>
+                            <p>N末端脑钠肽前体(NT-proBNP)检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1033"> <img src="/Upload/20190304/6C7BA66E27B040D8FBAE80936396FCCC.jpg"></a>
+                            </div>
+                            <p>心型脂肪酸结合蛋白(H-FABP)检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1034"> <img src="/Upload/20190304/E54C82D0DAE130F2B3A862D1790DFEEF.jpg"></a>
+                            </div>
+                            <p>髓过氧化物酶（MPO）检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1035"> <img src="/Upload/20190304/BF532747CE10A12F401D2B3849C61A0D.jpg"></a>
+                            </div>
+                            <p>肌钙蛋白I/心型脂肪酸结合蛋白(cTnI/H-FABP)联合检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1036"> <img src="/Upload/20190304/23D1751ACC721322B931C2D5782EFC84.jpg"></a>
+                            </div>
+                            <p>肌钙蛋白I/肌红蛋白/肌酸激酶同工酶（cTnI/MYO/CK-MB)联合检测试剂盒</p>
+                        </div>
+
+
+                </div>
+            </div>
+            <div class="swiper-container" id="ganran">
+                <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1037"> <img src="/Upload/20190304/FB0F0A86A290235FF4B83D4ED4B0B9C8.jpg"></a>
+                            </div>
+                            <p>降钙素原(PCT)检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1038"> <img src="/Upload/20190304/08210E8B2E58C8B8E92179A19D1095CF.jpg"></a>
+                            </div>
+                            <p>全程C反应蛋白（hsCRP+常规CRP）检测试剂</p>
+                        </div>
+
+
+                </div>
+            </div>
+            <div class="swiper-container" id="shen">
+                <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1039"> <img src="/Upload/20190304/8E3C59CA9E750B0D3F96AF407B277FC4.jpg"></a>
+                            </div>
+                            <p>中性粒细胞明胶酶相关脂质运载蛋白(NGAL)检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1040"> <img src="/Upload/20190304/B4E15A31C9BEE249AAFFB9A6D55007D4.jpg"></a>
+                            </div>
+                            <p>胱抑素C（Cys-C）检测试剂盒</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgView">
+                                <a target="_blank" href="/product/sjdetail?pid=1041"> <img src="/Upload/20190304/406DB6B7598194E171EE1B4CE884FC18.jpg"></a>
+                            </div>
+                            <p>β2微球蛋白（β2-MG）检测试剂盒</p>
+                        </div>
+
+
+                </div>
+            </div>
+            <script>
+                var swiper1 = new Swiper('#xinji', {
+                    slidesPerView: 5,
+                    spaceBetween: 0,
+                    initialSlide: 2,
+                    centeredSlides: true,
+                    slideToClickedSlide: true,
+                    loop: true,
+                    autoplay:true,
+                    breakpoints: { 
+                        //当宽度小于等于1400
+                        1400: {
+                            slidesPerView: 3,
+                        },
+                        900: {
+                            slidesPerView: 1,
+                        },
+                    }
+                });
+                var swiper2 = new Swiper('#ganran', {
+                    slidesPerView: 2 + 1,
+                    spaceBetween: 0,
+                    initialSlide: 2,
+                    centeredSlides: true,
+                    slideToClickedSlide: true,
+                    loop: true,
+                    breakpoints: { 
+                        //当宽度小于等于1400
+                        1400: {
+                            slidesPerView: 3,
+                        },
+                        900: {
+                            slidesPerView: 1,
+                        },
+                    }
+                });
+                var swiper3 = new Swiper('#shen', {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                    initialSlide: 2,
+                    centeredSlides: true,
+                    slideToClickedSlide: true,
+                    loop: true,
+                    breakpoints: { 
+                        //当宽度小于等于1400
+                        1400: {
+                            slidesPerView: 3,
+                        },
+                        900: {
+                            slidesPerView: 1,
+                        },
+                    }
+                });
+                $("#ganran").hide();
+                $("#shen").hide();
+                $(".proCenterBody .fsPart2 .fsTop .fsBtn").mouseenter(function () {
+                    $(".proCenterBody .fsPart2 .fsTop .fsBtn").removeClass("fsSel");
+                    $(this).addClass("fsSel");
+                    console.log($(this).index());
+                    switch ($(this).index()) {
+                        case 0:
+                            $(".proCenterBody .fsPart2 .swiper-container").hide();
+                            $("#xinji").show();
+                            var swiper1 = new Swiper('#xinji', {
+                                slidesPerView: 5,
+                                spaceBetween: 0,
+                                initialSlide: 2,
+                                centeredSlides: true,
+                                slideToClickedSlide: true,
+                                loop: true,
+                                autoplay:true,
+                                breakpoints: { 
+                                    //当宽度小于等于1400
+                                    1400: {
+                                        slidesPerView: 3,
+                                    },
+                                    900: {
+                                        slidesPerView: 1,
+                                    },
+                                }
+                            });
+                            break;
+                        case 1:
+                            $(".proCenterBody .fsPart2 .swiper-container").hide();
+                            $("#ganran").show();
+                            var swiper2 = new Swiper('#ganran', {
+                                slidesPerView: 2 + 1,
+                                spaceBetween: 0,
+                                initialSlide: 2,
+                                centeredSlides: true,
+                                slideToClickedSlide: true,
+                                loop: true,
+                                autoplay:true,
+                                breakpoints: { 
+                                    //当宽度小于等于1400
+                                    1400: {
+                                        slidesPerView: 3,
+                                    },
+                                    900: {
+                                        slidesPerView: 1,
+                                    },
+                                }
+                            });
+                            break;
+                        case 2:
+                            $(".proCenterBody .fsPart2 .swiper-container").hide();
+                            $("#shen").show();
+                            var swiper3 = new Swiper('#shen', {
+                                slidesPerView: 3,
+                                spaceBetween: 0,
+                                initialSlide: 2,
+                                centeredSlides: true,
+                                slideToClickedSlide: true,
+                                loop: true,
+                                autoplay:true,
+                                breakpoints: { 
+                                    //当宽度小于等于1400
+                                    1400: {
+                                        slidesPerView: 3,
+                                    },
+                                    900: {
+                                        slidesPerView: 1,
+                                    },
+                                }
+                            });
+                            break;
+                        default:
+                            break;
+                    }
+                })
+            </script>
+        </div>
+    </div>
+
+
+    <div class="fsPart3" id="zhiliang">
+        <p class="fsCnTitle">质量控制</p>
+        <p class="fsEnTitle">Control Products</p>
+        <div class="fsShu"></div>
+        <div class="fsTop">
+            <div class="grayView"></div>
+            <div class="fsBody1440">
+                <div class="fsLeft">
+                    <p class="fsCnText">质控软件</p>
+                    <p class="fsEnText">Quality Control Software</p>
+                    <div class="fsHeng"></div>
+                    <div class="fsText">
+                        Mini LIS可以整合各地区域信息和资源， Mini LIS和设备可以直接接入医院的主干网络本院、分院数据信息通过Mini LIS对HIS/LIS进行数据的交互，对涉及的人员、设备、质量控制、报告审核、质量和技术记录等多平台应用管理软件极大程度地提高床旁诊断程序的效率
+                    </div>
+                </div>
+                <div class="fsRight">
+                    <img src="/Upload/20190305/2DA44166AB06A287A0122A54CB9E6B52.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="fsBottom">
+            <div class="fsBody1440">
+                <p class="fsCnText">质控品</p>
+                <p class="fsEnText">Quality Control Products</p>
+                <div class="fsHeng"></div>
+
+                <div class="csb">
+                    <div class="swiper-container" id="zkp">
+                        <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="imgView">
+                                        <img src="/Upload/20190305/36D43909162CE2C48C16B1D5525004D1.jpg">
+                                    </div>
+                                    <p class="fsTitle">
+                                        CK-MB质控品
+                                    </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgView">
+                                        <img src="/Upload/20190305/8E2A836033F053A43BA1EA3E876FA11D.jpg">
+                                    </div>
+                                    <p class="fsTitle">
+                                        cTnI质控品
+                                    </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgView">
+                                        <img src="/Upload/20190305/28A4B96D608616D224795D28AC1FB32C.jpg">
+                                    </div>
+                                    <p class="fsTitle">
+                                        D-二聚体质控品
+                                    </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgView">
+                                        <img src="/Upload/20190305/7EAE8300B821A07E62FF97C6A2F5E314.jpg">
+                                    </div>
+                                    <p class="fsTitle">
+                                        Myoglobin质控品
+                                    </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgView">
+                                        <img src="/Upload/20190305/18A92B6C3C885B2359D0383E5921C2DD.jpg">
+                                    </div>
+                                    <p class="fsTitle">
+                                        NT-proBNP质控品
+                                    </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgView">
+                                        <img src="/Upload/20190305/D3C1EAD7BAEFCD233D1C51AC3A15EDC9.jpg">
+                                    </div>
+                                    <p class="fsTitle">
+                                        PCT质控品
+                                    </p>
+                                </div>
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <script>
+                    var swiper = new Swiper('#zkp', {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        roundLengths : true,
+                        autoplay:true,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        breakpoints: { 
+                            //当宽度小于等于1400
+                            1400: {
+                                slidesPerView: 2,
+                            },
+                            900: {
+                               slidesPerView: 1,
+                            },
+                        }
+                    });
+                </script>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+        
+
+
+    <div class="fsFoot">
+        <div class="fsBody1440">
+            <div class="fsTop fsBody1440">
+                <div class="fsLeft">
+                    <img src="/images/rll.png">
+                </div>
+                <div class="fsMid">
+                    <div class="fsPart">
+                        <p>关于瑞莱</p>
+                        <a href="/about#jianjie">企业简介</a>
+                        <a href="/about#licheng">发展历程</a>
+                        <a href="/about#chuangshi">企业创始</a>
+                        <a href="/about#shiming">企业使命</a>
+                        <a href="/about#rongyu">资质荣誉</a>
+                    </div>
+                    <div class="fsPart">
+                        <p>产品中心</p>
+                        <a href="/product">
+                            POCT产品
+                        </a>
+                        <a href="/product/qd">
+                            创新产品
+                        </a>
+
+                    </div>
+                    <div class="fsPart">
+                        <p>综合服务</p>
+                        <a href="/service" >
+                            快速检测解决方案
+                        </a>
+                        <a href="/service/xueshu">
+                            学术资料
+                        </a>
+                        <a href="/service/wenti">
+                            专业技术服务
+                        </a>
+                        
+                    </div>
+                    <div class="fsPart">
+                        <p>新闻动态</p>
+                        <a href="/news?cid=543">
+                            瑞莱动态
+                        </a>
+                        <a href="/news?cid=544">
+                            行业新闻
+                        </a>
+                        <a href="/news?cid=545">
+                            全球新闻
+                        </a>
+                    </div>
+                    <div class="fsPart">
+                        <p>加入瑞莱</p>
+                        <a href="/joinus">
+                            瑞莱生活
+                        </a>
+                        <a href="/joinus/xinchou">
+                            薪酬福利
+                        </a>
+                        <a href="/joinus/zhaoxian?type=1">
+                            招贤纳士
+                        </a>
+                    </div>
+                </div>
+                <div class="fsRight">
+                    <p class="fsTitle">关注我们</p>
+                    <img src="/images/ewm.jpg">
+                    <p class="fsText">扫描关注微信公众号</p>
+                </div>
+            </div>
+            <div class="fsBottom">
+<div  class="fsLeft"> <p>Copyright © 2018 瑞莱生物工程（深圳）有限公司 All rights reserved  &nbsp;</p><p>互联网药品信息服务资格证书：[（粤）-非经营性-2018-0103]</p> </div>
+ <div class="fsLeft">
+                   
+                    <p><span style="float:left;">&nbsp;网站备案号：</span> <a style="display:block;float:left;" href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action">[粤-ICP备18003511号]</a></p>
+                   
+                </div>
+                <div class="fsRight">
+                    <p> <img src="/images/batb.png" style="float:left;margin-right:5px;"> <a style="display:block;float:left;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502001826&token=117cbe10-f764-4934-b8e9-7d02568b6969"> &nbsp;粤公网安备 44030502001826号  </a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+
+            function getMore() {
+                var cid = $("#productcid").val();
+                $.ajax({
+                    type: "GET",
+                    data: { cid: cid },
+                    url: "/home/GetProduct",
+                    dataType: "json",
+                    success: function (data) {
+                        var list = data.list;
+                        var result = "";
+                        var i = 0;
+                        if (list.length > 0) {
+                            $.each(list, function (k, v) {
+                                result += "<option value='"+v.page_title+"'>"+v.page_title+"</option>";
+                            });
+                            $("#fproduct").html(result);
+                        }
+                        else {
+                            alert("没有更多了");
+                        }
+
+                    },
+                    error: function (jqXHR) {
+                        alert("发生错误：" + jqXHR.status);
+                    }
+                });
+            }
+
+            function submitSh()
+            {
+                var name = $("#name").val();
+                var tel = $("#tel").val();
+                var email = $("#email").val();
+                var message = $("#message").val();
+
+                if(name=="")
+                {
+                    alert("请填写您的姓名");
+                }
+                else if(tel=="")
+                {
+                    alert("请填写您的电话");
+                }
+                else if (email == "") {
+                    alert("请填写您的邮箱");
+                }
+                else if (message == "") {
+                    alert("请填写您的留言");
+                }else
+                {
+                    $("#formsh").submit();
+                }
+            }
+
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
+                    $('.indexTopNav').addClass('active')
+                } else {
+                    $('.indexTopNav').removeClass('active')
+                }
+            })
+
+            $(".xjxj").click(function () {
+                $('html,body').animate({ 'scrollTop': $(window).height() - 68 })
+            })
+
+            </script>
+        <div class="btnView">
+            <div class="liuyan"></div>
+            <div class="backTop"></div>
+        </div>
+        <div class="fsPiao">
+            <form action="/home/toShouhou" method="post" id="formsh">
+                <input type="hidden" value="2" id="hf_zx_type" name="hf_zx_type">
+                <div class="fsWhite" onclick="event.cancelBubble = true">
+                    <img src="/images/close2.png" class="close">
+                    <p class="fsTitle" id="zx_title">售后服务</p>
+                    <div class="fsPart">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                类别：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <select name="productcid" id="productcid" onchange="getMore()">
+                                    <option value="535">荧光平台</option>
+                                    <option value="556">双向侧流平台</option>
+
+                            </select>
+                        </div>
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                产品：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <select name="product" id="fproduct">
+                            <option value="TZ-301">TZ-301</option>
+                            <option value="TZ-310">TZ-310</option>
+                            <option value="TZ-320">TZ-320</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="fsPart">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                姓名：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <input type="text" name="name" id="name" />
+                        </div>
+                    </div>
+
+                    <div class="fsPart">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                电话：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <input type="text" name="tel" id="tel" />
+                        </div>
+                    </div>
+
+                    <div class="fsPart">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                邮箱：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <input type="text" name="email" id="email" />
+                        </div>
+                    </div>
+
+                    <div class="fsPart fsPart2">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                留言：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <textarea id="message" placeholder="请在此输入留言内容，我们会尽快与您联系。(必填)" name="message"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fsBtn" onclick="submitSh();" style="cursor:pointer;">
+                        提交
+                    </div>
+                    <script>
+                    $(".liuyan").click(function () {
+                        $(".fsPiao").css("display", "flex");
+                    })
+                    $(".fsPiao").click(function () {
+                        $(this).hide()
+                    })
+                    $(".fsPiao .close").click(function () {
+                        $(".fsPiao").hide();
+                    })
+                    </script>
+                </div>
+            </form>
+        </div>
+        <script>
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 1000) {
+                    $(".btnView").css("display", "flex");
+                }
+                if ($(window).scrollTop() < 400) {
+                    $(".btnView").css("display", "none");
+                }
+            });
+            $(".backTop").click(function () {
+                $('html ,body').animate({ scrollTop: 0 }, 'slow', function () {
+                    $(".btnView").css("display", "none");
+                });
+            })
+            $(".liuyan").click(function () {
+                $(".fsPiao").show();
+            })
+        </script>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>联系我们 瑞莱生物工程（深圳）有限公司</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+    <link rel="stylesheet" href="/css/fsSytle.css">
+    <script src="/js/jquery1.42.min.js"></script>
+    <script src="/js/jquery-2.1.1.min.js"></script>
+    <link href="/css/swiper.min.css" rel="stylesheet" />
+    <script src="/js/swiper.min.js"></script>
+    <link href="/css/page.css" rel="stylesheet" />
+    <meta name="viewport" content="width=800px,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+
+</head>
+<body>
+
+    
+
+        
+<script type="text/javascript">
+    $(function () {
+        $("#contact").addClass("fsSel");
+    });
+</script>
+<div class="indexTopNav innerTopNav">
+    <div class="fsBody1440">
+        <a href="/" class="fsLeft">
+            <img src="/images/logo.png">
+        </a>
+        <div class="fsMid">
+            <a href="/" id="home">
+                首页
+            </a>
+            <div class="fsPart" id="about">
+                <a href="/about" class="aaa"> 关于瑞莱</a>
+                <div class="xiala">
+                    <a href="/about#jianjie" class="fsSel">
+                        企业简介
+                    </a>
+                    <a href="/about#licheng">
+                        发展历程
+                    </a>
+                    <a href="/about#chuangshi">
+                        企业创始
+                    </a>
+                    <a href="/about#shiming">
+                        企业使命
+                    </a>
+                    <a href="/about#rongyu">
+                        资质荣誉
+                    </a>
+                </div>
+            </div>
+            <div class="fsPart" id="product">
+                <a href="/product" class="aaa">
+                    产品中心
+                </a>
+                <div class="xiala">
+                    <a href="/product" class="fsSel">
+                        POCT产品
+                    </a>
+                    <a href="/product/qd">
+                        创新产品
+                    </a>
+                </div>
+            </div>
+            <div class="fsPart" id="service">
+                <a href="/service" class="aaa">
+                    综合服务
+                </a>
+                <div class="xiala">
+                    <a href="/service" class="fsSel">
+                        快速检测解决方案
+                    </a>
+                    <a href="/service/xueshu">
+                        学术资料
+                    </a>
+                    <a href="/service/wenti">
+                        专业技术服务
+                    </a>
+
+                </div>
+            </div>
+            <div class="fsPart" id="news">
+                <a href="/news" class="aaa">
+                    新闻动态
+                </a>
+                <div class="xiala">
+                    <a href="/news?cid=543" class="fsSel">
+                        瑞莱动态
+                    </a>
+                    <a href="/news?cid=544">
+                        行业新闻
+                    </a>
+                    <a href="/news?cid=545">
+                        全球新闻
+                    </a>
+                </div>
+            </div>
+            <div class="fsPart" id="join">
+                <a href="/joinus" class="aaa">
+                    加入瑞莱
+                </a>
+                <div class="xiala">
+                    <a href="/joinus" class="fsSel">
+                        瑞莱生活
+                    </a>
+                    <a href="/joinus/xinchou">
+                        薪酬福利
+                    </a>
+                    <a href="/joinus/zhaoxian?type=1">
+                        招贤纳士
+                    </a>
+                </div>
+            </div>
+
+            <a href="/contactus" id="contact">
+                联系我们
+            </a>
+        </div>
+        <script>
+            $(".indexTopNav .fsPart").mouseenter(function () {
+                $(this).children(".xiala").stop(true, true).slideDown(600);
+            })
+            $(".indexTopNav .fsPart").mouseleave(function () {
+                $(this).children(".xiala").stop(true, true).slideUp(600);
+            })
+        </script>
+
+        <div class="fsRight">
+            <div style="cursor:pointer" id="sss"> <img src="/images/wx.png" class="wx"></div>
+            <div style="cursor:pointer" class="iooi">
+                <img src="/images/xl_cn.png" class="xl">
+                <ul>
+                    <li>
+                        <a href="/en">
+                            <img src="/images/enL.jpg" />
+                            <p>英语</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ru">
+                            <img src="/images/ruL.jpg" />
+                            <p>俄语</p>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/es">
+                            <img src="/images/esL.jpg" />
+                            <p>西班牙语</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <style>
+               .iooi {
+                        position:relative;
+                    }
+
+                    .iooi ul {
+                        width: 100px;
+                        height: auto;
+                        border: 1px solid #ddd;
+                        background: #eee;
+                        display: none;
+                        position:absolute;
+                        top:40px;
+                        left:-5px;
+                    }
+
+                        .iooi ul li {
+                            width: 100%;
+                            height: 40px;
+                            border-bottom: 1px solid #fff;
+                        }
+
+                            .iooi ul li a {
+                                text-align: center;
+                                text-transform: uppercase;
+                                display:flex;
+                                align-items:center;
+                               flex:1;
+                               padding:0 5px;
+                                height:40px;
+                            }
+
+                            .iooi ul li a img {
+                                height:20px;
+                                margin-right:4px;
+                            }
+
+                            .iooi ul li a p {
+                                font-size:13px;
+                                line-height:40px;
+                            }
+            </style>
+            <script>
+                $(".iooi").click(function () {
+                    $(this).children("ul").toggle();
+                })
+
+                $(window).scroll(function () {
+                    if (!$(".iooi ul").is(':hidden')) {
+                        $(".iooi").children("ul").hide();
+                    }
+                });
+            </script>
+
+        </div>
+
+        <form action="/search/toSearch" id="form_search">
+            <div class="ssssView">
+                <input type="text" name="keyword" id="keyword" value="" placeholder="请输入搜索内容" />
+                <p>搜索</p>
+            </div>
+        </form>
+        <script>
+            $("#sss").click(function () {
+                $(".ssssView").slideToggle();
+
+                $(".ssssView p").click(function () {
+                    var keyword = $("#keyword").val();
+                    if (keyword == "") {
+                        alert("请填写搜索关键词");
+                    }
+                    else {
+                        $("#form_search").submit();
+                    }
+                });
+
+            })
+        </script>
+
+        <div class="menu_m" id="menu"><i></i><i></i><i></i></div>
+        <div class="nav_main">
+            <div class="inner">
+                <div class="d" style="width: 200px;">
+                    <a href="/" id="home">
+                        <h3>首页</h3>
+                    </a>
+                </div>
+                <div class="d">
+                    <a href="/about" class="aaa">
+                        <h3>关于瑞莱</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/about#jianjie" class="fsSel">
+                                企业简介
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about#licheng">
+                                发展历程
+                            </a>
+                        </li>
+                        <br />
+                        <li>
+                            <a href="/about#chuangshi">
+                                企业创始
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about#shiming">
+                                企业使命
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about#rongyu">
+                                资质荣誉
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d">
+                    <a href="/product" class="aaa">
+                        <h3>产品中心</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/product" class="fsSel">
+                                POCT产品
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/product/qd">
+                                创新产品
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d">
+                    <a href="/service" class="aaa">
+                        <h3>综合服务</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/service" class="fsSel">
+                                快速检测解决方案
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/service/xueshu">
+                                学术资料
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/service/wenti">
+                                专业技术服务
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d">
+                    <a href="/news" class="aaa">
+                        <h3>新闻动态</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/news?cid=543" class="fsSel">
+                                瑞莱动态
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/news?cid=544">
+                                行业新闻
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/news?cid=545">
+                                全球新闻
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d">
+                    <a href="/joinus" class="aaa">
+                        <h3>加入瑞莱</h3>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="/joinus" class="fsSel">
+                                瑞莱生活
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/joinus/xinchou">
+                                薪酬福利
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/joinus/zhaoxian?type=1">
+                                招贤纳士
+                            </a>
+                        </li>
+                    </ul>   
+                </div>
+                <div class="d">
+                    <a href="/contactus" id="contact">
+                        <h3>联系我们</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="/js/global.js"></script>
+
+
+    </div>
+</div>
+
+
+<div class="innerBanner lxxx" style="position:relative;overflow:hidden;">
+    <img src="/images/gun.jpg" alt="Alternate Text" style="opacity:0" />
+    <div class="gungun" style="position:absolute;left:0;top:0;">
+        <img src="/images/gun.jpg" alt="Alternate Text" />
+        <img src="/images/gun.jpg" alt="Alternate Text" />
+        <img src="/images/gun.jpg" alt="Alternate Text" />
+    </div>
+    <script>
+        var w = $(".gungun").width();
+        $(".gungun").animate({ left: -w + 10 }, 15000, 'linear', rowBack);
+
+        function rowBack() {
+            $(".gungun").css("left", "0");
+            $(".gungun").animate({ left: -w + 10 }, 15000, 'linear', rowBack);
+        }
+
+    </script>
+</div>
+<script type="text/javascript">
+    function showSh(val) {
+        $("#hf_zx_type").val(val);
+        if (val == "1") {
+            $("#zx_title").html("售前服务");
+        }
+        else {
+            $("#zx_title").html("售后服务");
+        }
+        $(".fsPiao").css("display", "flex");
+    }
+</script>
+<div class="innerBody contactList">
+
+    <div class="indexBody">
+        <div class="fsPart4" style="background: #ffffff;">
+            <div class="fsBody1440">
+                <div class="fsBottom">
+                    <a>
+                        <img src="/images/lx1.jpg">
+                        <div class="newsInfo">
+                            <p class="fsTime">上海分公司</p>
+
+                            <div class="fsTitle">
+                                <img src="/images/conLogo_07.png">
+                                <p class="jscsba">+86-21-65248530</p>
+                            </div>
+                            <div class="fsTitle">
+                                <img src="/images/conLogo_11.png">
+                                <p class="jscsba">+86-21-65249508</p>
+                            </div>
+                            <div class="fsText">
+                                <img src="/images/conLogo_03.png">
+                                <p class="jscsba">上海市虹口区中山北一路1111号4号楼5楼</p>
+                            </div>
+
+                            <div class="fsBtn">
+                                <div class="fsMore" style="cursor:pointer" onclick="showSh('1')">
+                                    立即咨询
+                                </div>
+                                <div class="fsMore" style="cursor:pointer" onclick="showSh('2')">
+                                    售后服务
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a>
+                        <img src="/images/lx2.jpg">
+                        <div class="newsInfo">
+                            <p class="fsTime">江苏分公司</p>
+                            <div class="fsTitle">
+                                <img src="/images/conLogo_07.png">
+                                <p class="jscsba">-</p>
+                            </div>
+                            <div class="fsTitle">
+                                <img src="/images/conLogo_11.png">
+                                <p class="jscsba">+86-523-86201810</p>
+                            </div>
+                            <div class="fsText">
+                                <img src="/images/conLogo_03.png">
+                                <p class="jscsba">江苏省泰州市经济开发区中国医药城口泰路东侧、新阳路北侧（G30幢）</p>
+                            </div>
+                            <div class="fsBtn">
+                                <div class="fsMore" style="cursor:pointer" onclick="showSh('1')">
+                                    立即咨询
+                                </div>
+                                <div class="fsMore" style="cursor:pointer" onclick="showSh('2')">
+                                    售后服务
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a>
+                        <img src="/images/lx3.jpg">
+                        <div class="newsInfo">
+                            <p class="fsTime">深圳分公司</p>
+                            <div class="fsTitle">
+                                <img src="/images/conLogo_07.png">
+                                <p class="jscsba">-</p>
+                            </div>
+                            <div class="fsTitle">
+                                <img src="/images/conLogo_11.png">
+                                <p class="jscsba">+86-755-26810363</p>
+                            </div>
+                            <div class="fsText">
+                                <img src="/images/conLogo_03.png">
+                                <p class="jscsba">深圳市南山区南海大道1019号南山医疗器械产业园B栋502-504</p>
+                            </div>
+                            <div class="fsBtn">
+                                <div class="fsMore" style="cursor:pointer" onclick="showSh('1')">
+                                    立即咨询
+                                </div>
+                                <div class="fsMore" style="cursor:pointer" onclick="showSh('2')">
+                                    售后服务
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fsPart1">
+        <img src="/images/mapb.jpg" class="" />
+        <img src="/images/map.gif" class="init" />
+        <div class="fsMeng">
+            <p class="fsTitle">瑞莱中国</p>
+            <div class="fsHeng"></div>
+            <div class="fsText">
+                截止到2018年底，瑞莱生物业务辐射中国大部分省市及地区，产品种类及合作品牌覆盖体外诊断的细分领域，覆盖数千家以上医院，并拥有良好的产品口碑。
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+        
+
+
+    <div class="fsFoot">
+        <div class="fsBody1440">
+            <div class="fsTop fsBody1440">
+                <div class="fsLeft">
+                    <img src="/images/rll.png">
+                </div>
+                <div class="fsMid">
+                    <div class="fsPart">
+                        <p>关于瑞莱</p>
+                        <a href="/about#jianjie">企业简介</a>
+                        <a href="/about#licheng">发展历程</a>
+                        <a href="/about#chuangshi">企业创始</a>
+                        <a href="/about#shiming">企业使命</a>
+                        <a href="/about#rongyu">资质荣誉</a>
+                    </div>
+                    <div class="fsPart">
+                        <p>产品中心</p>
+                        <a href="/product">
+                            POCT产品
+                        </a>
+                        <a href="/product/qd">
+                            创新产品
+                        </a>
+
+                    </div>
+                    <div class="fsPart">
+                        <p>综合服务</p>
+                        <a href="/service" >
+                            快速检测解决方案
+                        </a>
+                        <a href="/service/xueshu">
+                            学术资料
+                        </a>
+                        <a href="/service/wenti">
+                            专业技术服务
+                        </a>
+                        
+                    </div>
+                    <div class="fsPart">
+                        <p>新闻动态</p>
+                        <a href="/news?cid=543">
+                            瑞莱动态
+                        </a>
+                        <a href="/news?cid=544">
+                            行业新闻
+                        </a>
+                        <a href="/news?cid=545">
+                            全球新闻
+                        </a>
+                    </div>
+                    <div class="fsPart">
+                        <p>加入瑞莱</p>
+                        <a href="/joinus">
+                            瑞莱生活
+                        </a>
+                        <a href="/joinus/xinchou">
+                            薪酬福利
+                        </a>
+                        <a href="/joinus/zhaoxian?type=1">
+                            招贤纳士
+                        </a>
+                    </div>
+                </div>
+                <div class="fsRight">
+                    <p class="fsTitle">关注我们</p>
+                    <img src="/images/ewm.jpg">
+                    <p class="fsText">扫描关注微信公众号</p>
+                </div>
+            </div>
+            <div class="fsBottom">
+<div  class="fsLeft"> <p>Copyright © 2018 瑞莱生物工程（深圳）有限公司 All rights reserved  &nbsp;</p><p>互联网药品信息服务资格证书：[（粤）-非经营性-2018-0103]</p> </div>
+ <div class="fsLeft">
+                   
+                    <p><span style="float:left;">&nbsp;网站备案号：</span> <a style="display:block;float:left;" href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action">[粤-ICP备18003511号]</a></p>
+                   
+                </div>
+                <div class="fsRight">
+                    <p> <img src="/images/batb.png" style="float:left;margin-right:5px;"> <a style="display:block;float:left;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502001826&token=117cbe10-f764-4934-b8e9-7d02568b6969"> &nbsp;粤公网安备 44030502001826号  </a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+
+            function getMore() {
+                var cid = $("#productcid").val();
+                $.ajax({
+                    type: "GET",
+                    data: { cid: cid },
+                    url: "/home/GetProduct",
+                    dataType: "json",
+                    success: function (data) {
+                        var list = data.list;
+                        var result = "";
+                        var i = 0;
+                        if (list.length > 0) {
+                            $.each(list, function (k, v) {
+                                result += "<option value='"+v.page_title+"'>"+v.page_title+"</option>";
+                            });
+                            $("#fproduct").html(result);
+                        }
+                        else {
+                            alert("没有更多了");
+                        }
+
+                    },
+                    error: function (jqXHR) {
+                        alert("发生错误：" + jqXHR.status);
+                    }
+                });
+            }
+
+            function submitSh()
+            {
+                var name = $("#name").val();
+                var tel = $("#tel").val();
+                var email = $("#email").val();
+                var message = $("#message").val();
+
+                if(name=="")
+                {
+                    alert("请填写您的姓名");
+                }
+                else if(tel=="")
+                {
+                    alert("请填写您的电话");
+                }
+                else if (email == "") {
+                    alert("请填写您的邮箱");
+                }
+                else if (message == "") {
+                    alert("请填写您的留言");
+                }else
+                {
+                    $("#formsh").submit();
+                }
+            }
+
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
+                    $('.indexTopNav').addClass('active')
+                } else {
+                    $('.indexTopNav').removeClass('active')
+                }
+            })
+
+            $(".xjxj").click(function () {
+                $('html,body').animate({ 'scrollTop': $(window).height() - 68 })
+            })
+
+            </script>
+        <div class="btnView">
+            <div class="liuyan"></div>
+            <div class="backTop"></div>
+        </div>
+        <div class="fsPiao">
+            <form action="/home/toShouhou" method="post" id="formsh">
+                <input type="hidden" value="2" id="hf_zx_type" name="hf_zx_type">
+                <div class="fsWhite" onclick="event.cancelBubble = true">
+                    <img src="/images/close2.png" class="close">
+                    <p class="fsTitle" id="zx_title">售后服务</p>
+                    <div class="fsPart">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                类别：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <select name="productcid" id="productcid" onchange="getMore()">
+                                    <option value="535">荧光平台</option>
+                                    <option value="556">双向侧流平台</option>
+
+                            </select>
+                        </div>
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                产品：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <select name="product" id="fproduct">
+                            <option value="TZ-301">TZ-301</option>
+                            <option value="TZ-310">TZ-310</option>
+                            <option value="TZ-320">TZ-320</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="fsPart">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                姓名：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <input type="text" name="name" id="name" />
+                        </div>
+                    </div>
+
+                    <div class="fsPart">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                电话：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <input type="text" name="tel" id="tel" />
+                        </div>
+                    </div>
+
+                    <div class="fsPart">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                邮箱：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <input type="text" name="email" id="email" />
+                        </div>
+                    </div>
+
+                    <div class="fsPart fsPart2">
+                        <div class="fsLeft">
+                            <span>*</span>
+                            <p>
+                                留言：
+                            </p>
+                        </div>
+                        <div class="fsRight">
+                            <textarea id="message" placeholder="请在此输入留言内容，我们会尽快与您联系。(必填)" name="message"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fsBtn" onclick="submitSh();" style="cursor:pointer;">
+                        提交
+                    </div>
+                    <script>
+                    $(".liuyan").click(function () {
+                        $(".fsPiao").css("display", "flex");
+                    })
+                    $(".fsPiao").click(function () {
+                        $(this).hide()
+                    })
+                    $(".fsPiao .close").click(function () {
+                        $(".fsPiao").hide();
+                    })
+                    </script>
+                </div>
+            </form>
+        </div>
+        <script>
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 1000) {
+                    $(".btnView").css("display", "flex");
+                }
+                if ($(window).scrollTop() < 400) {
+                    $(".btnView").css("display", "none");
+                }
+            });
+            $(".backTop").click(function () {
+                $('html ,body').animate({ scrollTop: 0 }, 'slow', function () {
+                    $(".btnView").css("display", "none");
+                });
+            })
+            $(".liuyan").click(function () {
+                $(".fsPiao").show();
+            })
+        </script>
+
+    </div>
+
+</body>
+</html>

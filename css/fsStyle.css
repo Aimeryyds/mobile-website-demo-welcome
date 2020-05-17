@@ -1,0 +1,7132 @@
+* {
+    margin: 0px;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Light';
+    src: url('/font/SourceHanSansCN-Light.otf');
+    src: url('/font/SourceHanSansCN-Light.otf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}   
+body {
+    font-family: "SourceHanSansCN-Light";
+}
+input,
+textarea,
+button {
+    outline: medium;
+}
+
+p {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+button {
+    background: rgba(0, 0, 0, 0);
+}
+
+
+
+ul li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.slh {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.clear_float {
+    height: 0px;
+    clear: both;
+    display: block;
+}
+
+.fsBody1600 {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.fsBody1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.indexTopNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(242, 242, 242, 0.7);
+    /*display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;*/
+    z-index: 100;
+}
+
+    .indexTopNav .fsBody1440 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+    }
+
+    .indexTopNav .fsMid {
+        margin: 0 auto;
+        height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        width: 50%;
+    }
+
+        .indexTopNav .fsMid a, .indexTopNav .fsMid .fsPart {
+            line-height: 78px;
+            border-bottom: 2px solid rgba(0, 0, 0, 0);
+            font-size: 16px;
+            color: #000;
+            position: relative;
+            cursor: pointer;
+        }
+
+            .indexTopNav .fsMid .fsPart .aaa {
+                margin-right: 0;
+            }
+
+.innerTopNav .fsMid .fsPart {
+    color: #000;
+}
+
+.indexTopNav .fsMid a:last-child {
+    margin-right: 0;
+}
+
+.indexTopNav .fsMid .fsSel {
+    border-bottom-color: #0098d8;
+}
+
+.indexTopNav .fsMid a:hover {
+    border-bottom-color: #0098d8;
+}
+
+.indexTopNav .fsMid .fsSel {
+    border-bottom-color: #0098d8;
+}
+
+.indexTopNav .fsRight {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto 0 auto 0;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    position: relative;
+}
+
+    .indexTopNav .fsRight .wx {
+        margin-right: 20px;
+    }
+
+.indexBody .fsPart1 {
+    /*display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;*/
+}
+
+    .indexBody .fsPart1 .fsBody1440 {
+        /*display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;*/
+        padding: 50px 0;
+        overflow: hidden;
+    }
+
+        .indexBody .fsPart1 .fsBody1440 .fsLeft {
+            /*display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;*/
+            width: 50%;
+            float: left
+        }
+
+            .indexBody .fsPart1 .fsBody1440 .fsLeft .fsCnTitle {
+                margin-top: 70px;
+                font-size: 30px;
+                font-weight: bold;
+                color: #0098d8;
+                line-height: 30px;
+                /*font-family: "KAITISJ"*/
+
+            }
+
+            .indexBody .fsPart1 .fsBody1440 .fsLeft .fsEnTitle {
+                font-size: 18px;
+                color: #cccccc;
+                text-transform: uppercase;
+                line-height: 30px;
+                letter-spacing: 1px;
+                margin-top: 6px;
+            }
+
+            .indexBody .fsPart1 .fsBody1440 .fsLeft .fsHeng {
+                width: 40px;
+                height: 1px;
+                margin: 20px auto 30px 0;
+                background: #d0d0d0;
+            }
+
+            .indexBody .fsPart1 .fsBody1440 .fsLeft .fsText {
+                font-size: 14px;
+                line-height: 30px;
+                color: #333333;
+            }
+
+            .indexBody .fsPart1 .fsBody1440 .fsLeft .fsMore {
+                margin: 70px auto 0 0;
+            }
+
+            .indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom {
+                /*display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;*/
+                margin: 100px 0 70px 0;
+                width: 100%;
+                overflow: hidden;
+            }
+
+                .indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a {
+                    /*display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-direction: column;*/
+                    margin-right: 50px;
+                    float: left
+                }
+
+                    .indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a .fsTop {
+                        height: 78px;
+                        width: 78px;
+                        border-radius: 100%;
+                        background: #f2f2f2;
+                        /*display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        justify-content: center;
+                        -ms-flex-pack: center;
+                        -webkit-justify-content: center;
+                        -webkit-box-pack: center;
+                        align-items: center;
+                        -ms-flex-align: center;
+                        -webkit-align-items: center;
+                        -webkit-box-align: center;*/
+                    }
+                    .indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a .fsTop img{
+                        display: block;margin: auto;padding-top: 25px
+                    }
+                    .indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a p {
+                        font-size: 16px;
+                        line-height: 40px;
+                        color: #333333;
+                        text-align: center;
+                    }
+
+.fsImg2 {
+    display: none;
+}
+
+.indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a:hover .fsImg1 {
+    display: none;
+}
+
+.indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a:hover .fsImg2 {
+    display: block;
+}
+
+.indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a:hover .fsTop {
+    background: #0098d8;
+}
+
+.indexBody .fsPart1 .fsBody1440 .fsRight {
+    width: 45%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    margin-left: auto;
+}
+
+    .indexBody .fsPart1 .fsBody1440 .fsRight img {
+        max-height: 610px;
+    }
+
+
+.indexBody .fsPart2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #ecf0f5;
+}
+
+    .indexBody .fsPart2 .fsBody1440 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        min-height: 500px;
+    }
+
+        .indexBody .fsPart2 .fsBody1440 .fsCnTitle {
+            font-size: 30px;
+            font-weight: bold;
+            color: #0098d8;
+            margin-top: 100px;
+            line-height: 30px;
+        }
+
+        .indexBody .fsPart2 .fsBody1440 .fsEnTitle {
+            text-transform: uppercase;
+            font-size: 18px;
+            line-height: 30px;
+            color: #cccccc;
+            margin-top: 6px;
+        }
+
+        .indexBody .fsPart2 .fsBody1440 .fsHeng {
+            width: 40px;
+            height: 1px;
+            margin: 20px auto 0 0;
+            background: #ccc;
+        }
+
+       .indexBody .fsPart2 .fsBody1440 .fsBottom {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+            margin: 70px auto 150px auto;
+        }
+
+            .indexBody .fsPart2 .fsBody1440 .fsBottom a {
+                width: 390px;
+                height: 390px;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                -webkit-box-pack: center;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                background: #FFFFFF;
+            }
+
+                .indexBody .fsPart2 .fsBody1440 .fsBottom a .fsTop {
+                    width: 220px;
+                    height: 220px;
+                    margin-bottom: 20px;
+                    border-radius: 100%;
+                    background: #FFFFFF;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    justify-content: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    -webkit-box-pack: center;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                }
+
+                .indexBody .fsPart2 .fsBody1440 .fsBottom a .fsCnText {
+                    font-size: 20px;
+                    font-weight: bold;
+                    line-height: 30px;
+                    color: #333333;
+                    text-align: center;
+                }
+
+                .indexBody .fsPart2 .fsBody1440 .fsBottom a .fsEnText {
+                   font-size: 14px;
+                    line-height: 24px;
+                    max-width:90%;
+                    text-align:center;
+                    color: #808080;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+
+                .indexBody .fsPart2 .fsBody1440 .fsBottom a:hover {
+                    background-color: #0098d8;
+                    background-image: url(/images/ww_05.png);
+                    background-position-y: bottom;
+                    background-repeat: no-repeat;
+                }
+
+                    .indexBody .fsPart2 .fsBody1440 .fsBottom a:hover .fsTop {
+                        background: url(/images/ww_03.png) no-repeat center;
+                    }
+
+                    .indexBody .fsPart2 .fsBody1440 .fsBottom a:hover p {
+                        color: #FFFFFF;
+                    }
+
+.indexBody .fsPart3 {
+    /*display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;*/
+    position: relative;
+}
+.indexBody .fsPart3 .ua1{width: 100%;display: block;}
+    .indexBody .fsPart3 .fsBody1440 {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -720px;
+        height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .indexBody .fsPart3 .fsBody1440 .fsLeft {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 0;
+        }
+
+            .indexBody .fsPart3 .fsBody1440 .fsLeft .fsCnTitle {
+                font-size: 30px;
+                font-weight: bold;
+                color: #ffffff;
+                line-height: 40px;
+                margin: auto;
+            }
+
+            .indexBody .fsPart3 .fsBody1440 .fsLeft .fsEnTitle {
+                font-size: 18px;
+                color: #ffffff;
+                line-height: 30px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            .indexBody .fsPart3 .fsBody1440 .fsLeft .fsHeng {
+                width: 40px;
+                height: 1px;
+                background: #CCCCCC;
+                margin: 20px auto;
+            }
+
+        .indexBody .fsPart3 .fsBody1440 .fsRight {
+            height: auto;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto;
+            width: 92%;
+        }
+
+            .indexBody .fsPart3 .fsBody1440 .fsRight a {
+                width: 320px;
+                height: 140px;
+                background: #FFFFFF;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                -webkit-box-pack: center;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+            }
+
+                .indexBody .fsPart3 .fsBody1440 .fsRight a p {
+                    font-size: 20px;
+                    font-weight: bold;
+                    line-height: 40px;
+                    color: #333333;
+                }
+
+                .indexBody .fsPart3 .fsBody1440 .fsRight a:hover {
+                    background: #0098d8;
+                }
+
+                    .indexBody .fsPart3 .fsBody1440 .fsRight a:hover .fsImg1 {
+                        display: none;
+                    }
+
+                    .indexBody .fsPart3 .fsBody1440 .fsRight a:hover .fsImg2 {
+                        display: block;
+                    }
+
+                    .indexBody .fsPart3 .fsBody1440 .fsRight a:hover p {
+                        color: #FFFFFF;
+                    }
+
+.indexBody .fsPart4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #f7f7f7;
+}
+
+    .indexBody .fsPart4 .fsBody1440 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        padding: 110px 0;
+    }
+
+        .indexBody .fsPart4 .fsBody1440 .fsTop {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+        }
+
+            .indexBody .fsPart4 .fsBody1440 .fsTop .fsLeft {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+            }
+
+                .indexBody .fsPart4 .fsBody1440 .fsTop .fsLeft .fsCnTitle {
+                    font-size: 30px;
+                    line-height: 50px;
+                    color: #0098d8;
+                    font-weight: bold;
+                }
+
+                .indexBody .fsPart4 .fsBody1440 .fsTop .fsLeft .fsEnTitle {
+                    font-size: 18px;
+                    color: #cccccc;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                }
+
+                .indexBody .fsPart4 .fsBody1440 .fsTop .fsLeft .fsHeng {
+                    width: 40px;
+                    height: 1px;
+                    margin: 10px auto 0 0;
+                    background: #CCCCCC;
+                }
+
+            .indexBody .fsPart4 .fsBody1440 .fsTop .fsMore {
+                width: 130px;
+                height: 40px;
+                background: url(../images/p4m.png) no-repeat center;
+            }
+
+        .indexBody .fsPart4 .fsBody1440 .fsBottom {
+            margin-top: 40px;
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .indexBody .fsPart4 .fsBody1440 .fsBottom a {
+                padding-bottom: 160px;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+                background: #FFFFFF;
+                overflow: hidden;
+                position: relative;
+            }
+
+                .indexBody .fsPart4 .fsBody1440 .fsBottom a img {
+                    width: 440px;
+                    height: 335px;
+                }
+
+                .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-direction: column;
+                    width: 80%;
+                    background: #FFFFFF;
+                    height: 100%;
+                    padding: 0 10%;
+                    position: absolute;
+                    top: 100%;
+                    margin-top: -160px;
+                    left: 0;
+                    transition: all 0.5s ease 0s;
+                }
+
+                .indexBody .fsPart4 .fsBody1440 .fsBottom a:hover .newsInfo {
+                    height: 100%;
+                    top: 0;
+                    margin-top: 0;
+                    transition: all 0.5s ease 0s;
+                }
+
+                .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTime {
+                    font-size: 14px;
+                    line-height: 30px;
+                    margin: 25px auto 0 0;
+                    color: #b2b2b2;
+                }
+
+                .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle {
+                    width: 100%;
+                    color: #333333;
+                    line-height: 30px;
+                    max-height:60px;
+                    overflow:hidden;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 25px 0 auto 0;
+                }
+
+                .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText {
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: #666666;
+                    margin-bottom: auto;
+                    max-height: 180px;
+                    overflow: hidden;
+                }
+
+                .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsMore {
+                    margin: 40px auto 40px 0;
+                    width: 113px;
+                    height: 35px;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    justify-content: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    -webkit-box-pack: center;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    font-size: 14px;
+                    color: #ffffff;
+                    background: #0098d8;
+                }
+
+.fsFoot {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #252525;
+}
+
+    .fsFoot .fsBody1600 {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        height: 484px;
+        background: url(../images/r.png) no-repeat left;
+        position: relative;
+    }
+
+    .fsFoot .fsTop {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 80px 0;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+        .fsFoot .fsTop .fsLeft {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+        }
+
+        .fsFoot .fsTop .fsMid {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+            .fsFoot .fsTop .fsMid .fsPart {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-right: 100px;
+                padding: 0;
+                justify-content: flex-start;
+            }
+
+                .fsFoot .fsTop .fsMid .fsPart:last-child {
+                    margin-right: 0;
+                }
+
+                .fsFoot .fsTop .fsMid .fsPart p {
+                    font-size: 18px;
+                    line-height: 40px;
+                    color: #e5e5e5;
+                    margin-bottom: 20px;
+                }
+
+                .fsFoot .fsTop .fsMid .fsPart a {
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: #b2b2b2;
+                }
+
+    .fsFoot .fsBottom {
+        height: 75px;
+        width: 100%;
+        border-top: 1px solid #4c4c4c;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+    .fsFoot .fsTop .fsRight {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .fsFoot .fsTop .fsRight .fsTitle {
+            font-size: 18px;
+            line-height: 40px;
+            color: #e5e5e5;
+            margin-bottom: 20px;
+        }
+
+        .fsFoot .fsTop .fsRight .fsText {
+            font-size: 14px;
+            line-height: 40px;
+            color: #b2b2b2;
+            text-align: center;
+        }
+
+    .fsFoot .fsBottom p,
+    .fsFoot .fsBottom a {
+        font-size: 14px;
+        color: #cccccc;
+    }
+
+    .fsFoot .fsBottom .fsRight {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+        .fsFoot .fsBottom .fsRight p {
+            margin: 0 10px;
+        }
+
+.innerBanner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.innerBody {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerNav {
+    margin-top: -80px;
+    height: 80px;
+    border-bottom: 1px solid #e6e6e6;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    background: #FFFFFF;
+    position: relative;
+}
+
+    .innerNav a {
+        padding: 5px 25px;
+        height: 34px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        letter-spacing: 2px;
+        font-size: 16px;
+        margin: 0 2%;
+    }
+
+    .innerNav .fsSel {
+        background: #0098d8;
+        border-radius: 100px;
+        color: #FFFFFF;
+    }
+
+    .innerNav a:hover {
+        background: #0098d8;
+        border-radius: 100px;
+        color: #FFFFFF;
+    }
+
+.aboutBody .fsPart1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    padding: 100px 0;
+}
+
+    .aboutBody .fsPart1 .fsCnTitle {
+        font-size: 24px;
+        color: #0098d8;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
+    .aboutBody .fsPart1 .fsEnTitle {
+        font-size: 16px;
+        color: #cccccc;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .aboutBody .fsPart1 .fsHeng {
+        width: 32px;
+        height: 1px;
+        margin: 10px auto 30px auto;
+        background: #cccccc;
+    }
+
+    .aboutBody .fsPart1 .fsText {
+        font-size: 14px;
+        line-height: 30px;
+        color: #333333;
+        max-width: 75%;
+        text-align: left;
+    }
+
+    .aboutBody .fsPart1 .fsBottom {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+.aboutBody .fsPart3 {
+    /*display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    justify-content: space-between;*/
+    overflow: hidden;
+}
+
+    .aboutBody .fsPart3 .fsLeft {
+        /*margin-right: 5%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        flood-color: #000000;
+        align-items: flex-start;
+        flex: 1;*/
+        /*float: left*/
+        float: left;
+        width: 57%;
+        margin-top: 50px
+    }
+
+        .aboutBody .fsPart3 .fsLeft .fsCnTitle {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0098d8;
+        }
+
+        .aboutBody .fsPart3 .fsLeft .fsEnTitle {
+            font-size: 16px;
+            line-height: 30px;
+            text-transform: uppercase;
+            color: #ccc;
+        }
+
+
+        .aboutBody .fsPart3 .fsLeft .fsHeng {
+            width: 32px;
+            height: 1px;
+            background: #CCCCCC;
+            margin: 20px auto 40px 0;
+        }
+
+        .aboutBody .fsPart3 .fsLeft .fsText {
+            font-size: 14px;
+            color: #333333;
+            line-height: 30px;
+        }
+
+    .aboutBody .fsPart3 .fsRight {
+        /*display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;*/
+        float: right;
+        width: 37%
+    }
+
+        .aboutBody .fsPart3 .fsRight img {
+            max-height: 610px;
+        }
+
+.aboutBody .fsPart4 {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    background: #f2f2f2;
+}
+
+    .aboutBody .fsPart4 .fsCnTitle {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000000;
+        line-height: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutBody .fsPart4 .fsEnTitle {
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .aboutBody .fsPart4 .fsHeng {
+        width: 32px;
+        height: 1px;
+        background: #000000;
+        margin: 10px auto 70px auto;
+    }
+
+    .aboutBody .fsPart4 .fsBottom {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .aboutBody .fsPart4 .fsPart {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        position: relative;
+        max-width: 460px;
+    }
+
+        .aboutBody .fsPart4 .fsPart .fsImg1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 152, 216, 0.7);
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+        }
+
+            .aboutBody .fsPart4 .fsPart .fsImg1 .fsCnText {
+                font-size: 18px;
+                line-height: 30px;
+                color: #ffffff;
+                margin-top: 10px;
+            }
+
+            .aboutBody .fsPart4 .fsPart .fsImg1 .fsEnText {
+                font-size: 14px;
+                color: #ffffff;
+                line-height: 30px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+        .aboutBody .fsPart4 .fsPart .fsImg2 {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            background: rgba(255, 255, 255, 0.9);
+            width: 90%;
+            height: 90%;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+        }
+
+            .aboutBody .fsPart4 .fsPart .fsImg2 .fsCnText {
+                font-size: 18px;
+                line-height: 30px;
+                color: #333333;
+                margin-top: 20px;
+            }
+
+            .aboutBody .fsPart4 .fsPart .fsImg2 .fsEnText {
+                font-size: 14px;
+                color: #808080;
+                line-height: 30px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            .aboutBody .fsPart4 .fsPart .fsImg2 .fsShu {
+                width: 1px;
+                height: 50px;
+                background: #808080;
+                margin: 20px auto 40px auto;
+            }
+
+            .aboutBody .fsPart4 .fsPart .fsImg2 .fsText {
+                font-size: 14px;
+                line-height: 30px;
+                color: #333333;
+            }
+
+        .aboutBody .fsPart4 .fsPart:hover .fsImg1 {
+            display: none;
+        }
+
+        .aboutBody .fsPart4 .fsPart:hover .fsImg2 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+.aboutBody .fsPart5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+    .aboutBody .fsPart5 .fsBody1440 {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        left: 50%;
+        margin-left: -720px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+    }
+
+        .aboutBody .fsPart5 .fsBody1440 .fsCnTitle {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            line-height: 40px;
+            margin-top: 70px;
+        }
+
+        .aboutBody .fsPart5 .fsBody1440 .fsEnTitle {
+            font-size: 16px;
+            line-height: 30px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+
+        .aboutBody .fsPart5 .fsBody1440 .fsHeng {
+            width: 32px;
+            height: 1px;
+            background: #FFFFFF;
+            margin: 10px auto 70px auto;
+        }
+
+        .aboutBody .fsPart5 .fsBody1440 .fsPart {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            margin-bottom: auto;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+            .aboutBody .fsPart5 .fsBody1440 .fsPart .fsLeft {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                justify-content: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                -webkit-box-pack: center;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                width: 25%;
+            }
+
+            .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-wrap: wrap;
+                width: 74%;
+            }
+
+                .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    width: 33%;
+                    margin-right: 0.5%;
+                    margin-bottom: auto;
+                }
+
+                    .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div:nth-child(3n) {
+                        margin-right: 0;
+                    }
+
+                    .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div:nth-child(4) {
+                        margin-bottom: 0;
+                    }
+
+                    .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div:nth-child(5) {
+                        margin-bottom: 0;
+                    }
+
+                    .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div:nth-child(6) {
+                        margin-bottom: 0;
+                    }
+
+
+.proCenterBody .fsPart1 .fsBody1440 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 120px 0;
+}
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsLeft {
+        width: 50%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: flex-start;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft .fsCnTitle {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: bold;
+            color: #333333;
+        }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft .fsEnTitle {
+            font-size: 16px;
+            line-height: 30px;
+            color: #333333;
+            text-transform: uppercase;
+        }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft .fsHeng {
+            width: 32px;
+            height: 1px;
+            background: #808080;
+            margin: 45px auto 60px 0;
+        }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft a {
+            width: 500px;
+            padding: 0 40px 0 25px;
+            height: 80px;
+            margin-top: 40px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            justify-content: space-between;
+            background: #f2f2f2;
+        }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsLeft a div {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+            }
+
+                .proCenterBody .fsPart1 .fsBody1440 .fsLeft a div .fsCnText {
+                    font-size: 18px;
+                    color: #333333;
+                    font-weight: bold;
+                    line-height: 30px;
+                }
+
+                .proCenterBody .fsPart1 .fsBody1440 .fsLeft a div .fsEnText {
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #808080;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsLeft a:hover {
+                background: #0098d8;
+            }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft .fsSel {
+            background: #0098d8;
+        }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsLeft .fsSel .fsImg1 {
+                display: none;
+            }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsLeft .fsSel .fsImg2 {
+                display: block;
+            }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft a:hover .fsImg1 {
+            display: none;
+        }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft a:hover .fsImg2 {
+            display: block;
+        }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft a:hover p {
+            color: #FFFFFF;
+        }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft .fsSel p {
+            color: #FFFFFF !important;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight {
+        width: 50%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: flex-start;
+        position: relative;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop {
+            width: 100%;
+            max-width: 718px;
+            max-height: 494px;
+            border: 1px solid #cccccc;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop div {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                -webkit-box-pack: center;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                position: relative;
+            }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .fsImg2 {
+                width: 120px;
+                height: 120px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -60px;
+                margin-left: -60px;
+                background: url(../images/yuan.png) no-repeat center;
+                display: none;
+            }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop:hover .fsImg2 {
+                display: block;
+            }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .hg div {
+                height: 40px;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                flex-direction: row;
+                margin: 10px 0;
+            }
+
+                .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .hg div p {
+                    margin-left: 20px;
+                    font-size: 18px;
+                    color: #000000;
+                }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .hg {
+                width: 200px;
+                margin: 0 auto;
+                justify-content: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                -webkit-box-pack: center;
+                align-items: flex-start;
+            }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsPart {
+                max-width: 174px;
+                margin-right: 8px;
+                flex: 1;
+                height: auto;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+            }
+
+                .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsPart:last-child {
+                    margin-right: 0;
+                }
+
+                .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsPart .imgView {
+                    border: 1px solid #cccccc;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    justify-content: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    -webkit-box-pack: center;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    width: 100%;
+                    max-height: 140px;
+                }
+
+                    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsPart .imgView img {
+                        max-height: 140px;
+                    }
+
+                .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsPart p {
+                    text-align: center;
+                    line-height: 40px;
+                    font-size: 14px;
+                    color: #333333;
+                }
+
+                .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsPart:hover .imgView {
+                    border-color: #0098d8;
+                }
+
+                .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsPart:hover p {
+                    color: #0098d8;
+                }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsSel .imgView {
+                border-color: #0098d8;
+            }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsBottom .fsSel p {
+                color: #0098d8;
+            }
+
+.proCenterBody .fsPart2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    overflow: hidden;
+}
+
+    .proCenterBody .fsPart2 .fsBody1440 {
+        position: absolute;
+        left: 50%;
+        margin-left: -720px;
+        top: 10%;
+        height: 70%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proCenterBody .fsPart2 .swiper-slide .imgView {
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background: #FFFFFF;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+        .proCenterBody .fsPart2 .swiper-slide .imgView a {
+            width: 170px;
+        }
+
+    .proCenterBody .fsPart2 .swiper-slide p {
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .proCenterBody .fsPart2 .swiper-slide-active .imgView {
+        width: 280px;
+        height: 280px;
+        border-radius: 100%;
+        border: 4px solid #0098d8;
+    }
+
+    .proCenterBody .fsPart2 .swiper-wrapper {
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+    .proCenterBody .fsPart2 .fsTop {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        position: relative;
+    }
+
+        .proCenterBody .fsPart2 .fsTop .fsCnTitle {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            line-height: 30px;
+        }
+
+        .proCenterBody .fsPart2 .fsTop .fsEnTitle {
+            font-size: 16px;
+            line-height: 30px;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+
+        .proCenterBody .fsPart2 .fsTop .fsHeng {
+            background: #FFFFFF;
+            width: 32px;
+            height: 1px;
+            margin: 45px auto 45px 0;
+        }
+
+    .proCenterBody .fsPart2 .swiper-container {
+        margin: auto 0;
+    }
+
+    .proCenterBody .fsPart2 .fsTop .fsRight {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .proCenterBody .fsPart2 .fsTop .fsBtn {
+        height: 38px;
+        width: 118px;
+        margin-left: 10px;
+        border: 1px solid #FFFFFF;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 38px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .proCenterBody .fsPart2 .fsTop .fsRight .fsSel {
+        background: #FFFFFF;
+        color: #0098d8;
+    }
+
+.proCenterBody .fsPart3 {
+    padding: 100px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+}
+
+    .proCenterBody .fsPart3 .fsCnTitle {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333333;
+        line-height: 30px;
+    }
+
+    .proCenterBody .fsPart3 .fsEnTitle {
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #333333;
+    }
+
+    .proCenterBody .fsPart3 .fsShu {
+        width: 1px;
+        height: 32px;
+        margin: 30px auto;
+        background: #808080;
+    }
+
+    .proCenterBody .fsPart3 .fsTop {
+        width: 100%;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 75px 0;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+        .proCenterBody .fsPart3 .fsTop .fsBody1440 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .proCenterBody .fsPart3 .fsTop .grayView {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40%;
+            height: 100%;
+            background: #f2f2f2;
+        }
+
+        .proCenterBody .fsPart3 .fsTop .fsLeft {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            margin-right: 5%;
+        }
+
+            .proCenterBody .fsPart3 .fsTop .fsLeft .fsCnText {
+                font-size: 24px;
+                font-weight: bold;
+                color: #333333;
+            }
+
+            .proCenterBody .fsPart3 .fsTop .fsLeft .fsEnText {
+                font-size: 16px;
+                line-height: 30px;
+                color: #808080;
+                text-transform: uppercase;
+            }
+
+            .proCenterBody .fsPart3 .fsTop .fsLeft .fsHeng {
+                width: 30px;
+                height: 2px;
+                background: #808080;
+                margin: 30px auto 50px 0;
+            }
+
+            .proCenterBody .fsPart3 .fsTop .fsLeft .fsText {
+                font-size: 14px;
+                line-height: 30px;
+                color: #333333;
+            }
+
+        .proCenterBody .fsPart3 .fsTop .fsRight img {
+            border: 4px solid #f2f2f2;
+        }
+
+    .proCenterBody .fsPart3 .fsBottom {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+    }
+
+        .proCenterBody .fsPart3 .fsBottom .fsBody1440 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .fsCnText {
+                font-size: 24px;
+                line-height: 30px;
+                font-weight: bold;
+                color: #333333;
+            }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .fsEnText {
+                font-size: 16px;
+                line-height: 30px;
+                color: #808080;
+            }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .fsHeng {
+                width: 30px;
+                height: 2px;
+                margin: 30px auto 60px 0;
+            }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-container {
+                width: 100%;
+            }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-slide {
+                padding-bottom: 50px;
+            }
+
+                .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-slide .imgView {
+                    border: 1px solid #cccccc;
+                    flex: 1;
+                    max-width: 100%;
+                    height: 278px;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    justify-content: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    -webkit-box-pack: center;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    position: relative;
+                }
+
+                .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-slide .fsTitle {
+                    width: 80%;
+                    position: absolute;
+                    bottom: 70px;
+                    font-size: 14px;
+                    color: #333333;
+                    text-align: center;
+                    left: 10%;
+                }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-button-prev {
+                left: -50px;
+                margin-top: -40px;
+                height: 40px;
+                background: url(../images/jtl.png) no-repeat center;
+            }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-button-next {
+                right: -50px;
+                margin-top: -40px;
+                height: 40px;
+                background: url(../images/jtr.png) no-repeat center;
+            }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-slide:hover .fsTitle {
+                background: #0098d8;
+                color: #FFFFFF;
+                height: 100px;
+                bottom: 0px;
+                line-height: 100px;
+            }
+
+            .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-slide:hover .imgView {
+                border-color: #0098d8;
+            }
+
+.csb {
+    position: relative;
+    width: 100%;
+}
+
+/* 试剂详情 */
+
+.mianbaoxue {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px;
+    border-bottom: 1px solid #e9e9e9;
+    background: #fafafa;
+    width: 100%;
+}
+
+    .mianbaoxue .fsBody1440 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+        .mianbaoxue .fsBody1440 img {
+            margin-right: 6px;
+        }
+
+        .mianbaoxue .fsBody1440 a,
+        .mianbaoxue .fsBody1440 p {
+            font-size: 14px;
+            color: #333333;
+            margin: 0 1px;
+        }
+
+.agentiBody {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 130px;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+}
+
+    .agentiBody .fsCnTitle {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333333;
+        line-height: 30px;
+        margin: 90px auto 70px auto;
+    }
+
+    .agentiBody .fsPart1 {
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+    }
+
+        .agentiBody .fsPart1 .fsLeft {
+            width: 7%;
+            height: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            position: absolute;
+        }
+
+            .agentiBody .fsPart1 .fsLeft p {
+                font-size: 24px;
+                color: #FFFFFF;
+                width: 20px;
+                padding: 13px 0;
+            }
+
+            .agentiBody .fsPart1 .fsLeft img {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+    .agentiBody .xinji .fsLeft {
+        background: #1cb9b7;
+    }
+
+    .agentiBody .fsPart1 .fsRight {
+        border: 1px solid #cccccc;
+        width: 90%;
+        margin-left: auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .agentiBody .fsPart1 .fsRight .infoTitle {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            background: #cccccc;
+        }
+
+            .agentiBody .fsPart1 .fsRight .infoTitle .p1 {
+                flex: 0.4;
+                margin-right: 1px;
+                height: 43px;
+                padding: 0 20px;
+                line-height: 43px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+
+            .agentiBody .fsPart1 .fsRight .infoTitle .p2 {
+                flex: 0.5;
+                margin-right: 1px;
+                height: 43px;
+                padding: 0 20px;
+                line-height: 43px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+
+            .agentiBody .fsPart1 .fsRight .infoTitle .p3 {
+                flex: 0.1;
+                height: 43px;
+                padding: 0 20px;
+                line-height: 43px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+
+    .agentiBody .xinji .fsRight .infoTitle div {
+        background: #1cb9b7;
+    }
+
+    .agentiBody .fsPart1 .fsRight .infoPart {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        background: #CCCCCC;
+    }
+
+        .agentiBody .fsPart1 .fsRight .infoPart .p1 {
+            flex: 0.4;
+            margin-right: 1px;
+            padding: 5px 20px;
+            min-height: 43px;
+            line-height: 24px;
+            font-size: 14px;
+            color: #333333;
+            border-top: 1px solid #CCCCCC;
+            background: #FFFFFF;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+        }
+
+        .agentiBody .fsPart1 .fsRight .infoPart .p2 {
+            flex: 0.5;
+            margin-right: 1px;
+            padding: 5px 20px;
+            line-height: 24px;
+            min-height: 43px;
+            color: #333333;
+            border-top: 1px solid #CCCCCC;
+            background: #FFFFFF;
+            font-size: 14px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+        }
+
+        .agentiBody .fsPart1 .fsRight .infoPart .p3 {
+            flex: 0.1;
+            padding: 5px 20px;
+            min-height: 43px;
+            line-height: 24px;
+            color: #333333;
+            border-top: 1px solid #CCCCCC;
+            background: #FFFFFF;
+            text-align: center;
+            font-size: 14px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+        }
+
+    .agentiBody .fsPart2 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        border-bottom: 1px solid #0098d8;
+        margin: 80px auto 60px auto;
+        width: 100%;
+    }
+
+        .agentiBody .fsPart2 .fsLeft {
+            width: 140px;
+            line-height: 46px;
+            background: #0098d8;
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 16px;
+        }
+
+        .agentiBody .fsPart2 .fsRight {
+            flex: 1;
+            background: #f2f2f2;
+        }
+
+    .agentiBody .fsPart1 .fsRight .infoPart:nth-child(2n+1) div {
+        background: #f2f2f2;
+    }
+
+    .agentiBody .other {
+        align-items: initial;
+        margin-bottom: 60px;
+    }
+
+    .agentiBody .yanzheng .fsLeft {
+        background: #18d077;
+    }
+
+    .agentiBody .shen .fsLeft {
+        background: #1d9ae9;
+    }
+
+    .agentiBody .yanzheng .fsRight .infoTitle div {
+        background: #18d077;
+    }
+
+    .agentiBody .shen .fsRight .infoTitle div {
+        background: #1d9ae9;
+    }
+
+/* 仪器详情 */
+.yiqiBody {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+    .yiqiBody .fsTop .fsBody1440 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 90px 0;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: space-between;
+    }
+
+        .yiqiBody .fsTop .fsBody1440 .fsLeft {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 45%;
+            height: 412px;
+        }
+
+            .yiqiBody .fsTop .fsBody1440 .fsLeft .gallery-top .swiper-slide {
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .yiqiBody .fsTop .fsBody1440 .fsLeft .gallery-thumbs {
+                width: 100px;
+                height: 85%;
+                margin: auto 0px auto 0;
+            }
+
+            .yiqiBody .fsTop .fsBody1440 .fsLeft .fsPart {
+                margin-right: 50px;
+                position: relative;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+            }
+
+            .yiqiBody .fsTop .fsBody1440 .fsLeft .gallery-top {
+                width: 512px;
+                border: 1px solid #cccccc;
+            }
+
+            .yiqiBody .fsTop .fsBody1440 .fsLeft .gallery-thumbs .swiper-slide {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+            }
+
+                .yiqiBody .fsTop .fsBody1440 .fsLeft .gallery-thumbs .swiper-slide .imgView {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    justify-content: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    -webkit-box-pack: center;
+                    align-items: auto;
+                    flex: 1;
+                    border: 1px solid #CCCCCC;
+                }
+
+            .yiqiBody .fsTop .fsBody1440 .fsLeft .swiper-button-prev {
+                top: 0px;
+                margin-top: 0;
+                left: 50%;
+                width: 20px;
+                margin-left: -10px;
+                background: url(../images/jtu.png) no-repeat center;
+                height: 17px;
+            }
+
+            .yiqiBody .fsTop .fsBody1440 .fsLeft .swiper-button-next {
+                top: auto;
+                bottom: 0;
+                margin-top: 0;
+                left: 50%;
+                width: 20px;
+                margin-left: -10px;
+                background: url(../images/jtd.png) no-repeat center;
+                height: 17px;
+            }
+
+        .yiqiBody .fsTop .fsBody1440 .fsRight {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            width: 50%;
+        }
+
+            .yiqiBody .fsTop .fsBody1440 .fsRight .fsTitle {
+                font-size: 24px;
+                font-weight: bold;
+                color: #333333;
+                line-height: 60px;
+                padding-right: 20px;
+                border-bottom: 2px solid #0098d8;
+                display: inline-block;
+                margin-right: auto;
+                margin-bottom: 40px;
+            }
+
+            .yiqiBody .fsTop .fsBody1440 .fsRight .infoPart {
+                width: 500px;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+                .yiqiBody .fsTop .fsBody1440 .fsRight .infoPart div {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    justify-content: flex-start;
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+
+            .yiqiBody .fsTop .fsBody1440 .fsRight div p {
+                font-size: 18px;
+                color: #000000;
+                margin-left: 10px;
+            }
+
+    .yiqiBody .fsBottom {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .yiqiBody .fsBottom .fsTitle {
+            height: 46px;
+            border-bottom: 1px solid #0098d8;
+            background: #f2f2f2;
+        }
+
+            .yiqiBody .fsBottom .fsTitle p {
+                width: 140px;
+                line-height: 46px;
+                height: 46px;
+                text-align: center;
+                background: #0098d8;
+                font-size: 16px;
+                color: #ffffff;
+            }
+
+        .yiqiBody .fsBottom .fsPart1 {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+            .yiqiBody .fsBottom .fsPart1 .fsBody1440 {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                padding: 40px 0;
+                justify-content: space-between;
+            }
+
+                .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsRight {
+                    margin-right: auto;
+                }
+
+
+                .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsLeft {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    align-items: flex-start;
+                }
+
+                    .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsLeft .fsCnTitle {
+                        font-size: 30px;
+                        line-height: 60px;
+                        color: #000000;
+                        font-weight: bold;
+                    }
+
+                    .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsLeft .fsText {
+                        font-size: 20px;
+                        line-height: 60px;
+                        color: #333333;
+                        max-width: 450px;
+                    }
+
+        .yiqiBody .fsBottom .fsPart-r .fsBody1440,
+        .yiqiBody .fsBottom .fsPart-r .fsBody1600 {
+            flex-direction: row-reverse;
+        }
+
+.erBody .fsPart-r {
+    flex-direction: row-reverse;
+}
+
+    .erBody .fsPart-r .fsRight {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+.yiqiBody .fsBottom .grayView {
+    background: #f2f2f2;
+}
+
+.yiqiBody .fsBottom .fsPart2 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    width: 100%;
+}
+
+    .yiqiBody .fsBottom .fsPart2 .fsBody1600 {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -800px;
+        height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+        .yiqiBody .fsBottom .fsPart2 .fsBody1600 .infoPart {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+        }
+
+    .yiqiBody .fsBottom .fsPart2 .infoPart .fsCnTitle {
+        font-size: 30px;
+        line-height: 60px;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .yiqiBody .fsBottom .fsPart2 .infoPart .fsText {
+        font-size: 20px;
+        line-height: 60px;
+        color: #333333;
+        max-width: 450px;
+    }
+
+.lifeBody .innerNav {
+    margin-top: -81px;
+}
+
+.lifeBodyDetail {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    position: relative;
+    width: 100%;
+}
+
+    .lifeBodyDetail .fsBody1440 {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        margin-left: -720px;
+    }
+
+        .lifeBodyDetail .fsBody1440 .infoPart {
+            margin-right: auto;
+            max-width: 400px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .lifeBodyDetail .fsBody1440 .infoPart .fsCnTitle {
+                font-size: 30px;
+                font-weight: bold;
+                color: #ffffff;
+                line-height: 40px;
+                letter-spacing: 0.5em;
+            }
+
+            .lifeBodyDetail .fsBody1440 .infoPart .fsEnTitle {
+                font-size: 16px;
+                line-height: 30px;
+                color: #ffffff;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            .lifeBodyDetail .fsBody1440 .infoPart .fsHeng {
+                width: 32px;
+                height: 2px;
+                background: #FFFFFF;
+                margin: 30px auto 30px 0;
+            }
+
+            .lifeBodyDetail .fsBody1440 .infoPart .fsPart {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                margin-bottom: 20px;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+            }
+
+                .lifeBodyDetail .fsBody1440 .infoPart .fsPart p {
+                    font-size: 16px;
+                    color: #ffffff;
+                    margin-left: 10px;
+                }
+
+            .lifeBodyDetail .fsBody1440 .infoPart .fsCnText {
+                font-weight: bold;
+                margin: 20px auto 20px 0;
+                font-size: 18px;
+                color: #FFFFFF;
+            }
+
+            .lifeBodyDetail .fsBody1440 .infoPart .fsEnText {
+                margin-bottom: 10px;
+                font-size: 16px;
+                color: #ffffff;
+            }
+
+.compensationBodyDetail .fsBody1440 .infoPart {
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    width: 100%;
+    max-width: none;
+}
+
+    .compensationBodyDetail .fsBody1440 .infoPart .fsHeng {
+        margin: 20px auto 50px auto;
+    }
+
+    .compensationBodyDetail .fsBody1440 .infoPart .fsPart {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        margin-top: 30px;
+    }
+
+        .compensationBodyDetail .fsBody1440 .infoPart .fsPart img {
+            margin: 0 10px;
+        }
+
+        .compensationBodyDetail .fsBody1440 .infoPart .fsPart p {
+            font-size: 16px;
+            color: #ffffff;
+            margin-right: 20px;
+            margin-left: 0;
+        }
+
+        .compensationBodyDetail .fsBody1440 .infoPart .fsPart:last-child {
+            margin-right: 0;
+        }
+
+.positionList {
+    padding: 90px 0;
+}
+
+    .positionList .fsBody1440 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+    .positionList .fsCnTitle {
+        font-weight: bold;
+        font-size: 24px;
+        color: #333333;
+        line-height: 30px;
+    }
+
+    .positionList .fsEnTitle {
+        font-size: 16px;
+        color: #333333;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .positionList .fsShu {
+        margin: 30px auto;
+        width: 1px;
+        height: 32px;
+        background: #808080;
+    }
+
+    .positionList .fsPart1 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+        .positionList .fsPart1 .fsBtn {
+            width: 140px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            color: #333333;
+            font-size: 14px;
+            cursor: pointer;
+            background: #f2f2f2;
+            margin: 0 5px;
+        }
+
+        .positionList .fsPart1 .fsSel {
+            background: #0098d8;
+            color: #FFFFFF;
+        }
+
+        .positionList .fsPart1 .fsBtn:hover {
+            background: #0098d8;
+            color: #FFFFFF;
+        }
+
+    .positionList .fsPart {
+        /*display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;*/
+        width: 100%;
+        /*flex: 1;*/
+        border: 6px solid #FFFFFF;
+        border-top: 0;
+    }
+
+        .positionList .fsPart .fsTop {
+            position: relative;
+           /* display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-around;
+            height: 80px;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;*/
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+            .positionList .fsPart .fsTop .p1 {
+                width: 13%;
+                float: left
+            }
+
+            .positionList .fsPart .fsTop .p2 {
+                width: 29%;
+                float: left
+            }
+
+    .positionList .fsTitle .fsTop div {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333333;
+    }
+
+    .positionList .grayView {
+        background: #f7f7f7;
+        border-color: #f7f7f7;
+        cursor: pointer;
+    }
+
+    .positionList .fsSel {
+        border-color: #0098d8;
+    }
+
+        .positionList .fsSel .fsTop {
+            background: #0098d8;
+        }
+
+            .positionList .fsSel .fsTop div {
+                color: #FFFFFF;
+            }
+
+            .positionList .fsSel .fsTop .p2 {
+                opacity: 0;
+            }
+
+    .positionList .grayView .fsBottom {
+        flex: 1;
+        background: #FFFFFF;
+        padding: 0;
+        height: 0;
+        transition: all 0.5s ease 0s;
+        overflow: hidden;
+    }
+
+    .positionList .fsTop .close {
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        margin-top: -6.5px;
+        cursor: pointer;
+        color: #FFFFFF;
+        display: none;
+        background: url(../images/close.png) no-repeat center;
+    }
+
+    .positionList .fsSel .fsTop .close {
+        display: block;
+    }
+
+    .positionList .fsSel .fsBottom {
+        flex: 1;
+        background: #FFFFFF;
+        padding: 80px 60px;
+        height: auto;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: space-between;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        transition: all 0.5s ease 0s;
+    }
+
+        .positionList .fsSel .fsBottom .infoPart {
+            width: 45%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .positionList .fsSel .fsBottom .infoPart .fsCnText {
+                font-size: 18px;
+                font-weight: bold;
+                color: #333333;
+                margin-bottom: 30px;
+            }
+
+            .positionList .fsSel .fsBottom .infoPart .fsText {
+                font-size: 14px;
+                line-height: 30px;
+                color: #333333;
+                margin-bottom: 40px;
+            }
+
+        .positionList .fsSel .fsBottom .fsBtn {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            height: 30px;
+            justify-content: flex-end;
+        }
+
+            .positionList .fsSel .fsBottom .fsBtn a {
+                width: 120px;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                height: 30px;
+                justify-content: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                -webkit-box-pack: center;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                font-size: 14px;
+                color: #ffffff;
+            }
+
+            .positionList .fsSel .fsBottom .fsBtn .sq {
+                background: #0098d8;
+            }
+
+    .positionList .fsPart:nth-child(2n+1) {
+        background: #FFFFFF !important;
+        border-color: #FFFFFF;
+    }
+
+.innerTopNav {
+    background: rgba(242, 242, 242, .7);
+}
+
+    .innerTopNav .fsMid a {
+        color: #000;
+    }
+
+.contactList .fsPart {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+}
+
+    .contactList .fsPart .fsCnTitle {
+        font-size: 24px;
+        font-weight: bold;
+        color: #0098d8;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .contactList .fsPart .fsHeng {
+        width: 32px;
+        height: 1px;
+        background: #cccccc;
+        margin: 30px auto 50px auto;
+    }
+
+    .contactList .fsPart .fsBottom {
+        width: 100%;
+        height: 290px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+        .contactList .fsPart .fsBottom .infoPart {
+            flex: 1;
+            margin-right: 1px;
+            background: #f2f2f2;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            border-right: 1px solid #d9d9d9;
+            padding: 2% 2%;
+        }
+
+            .contactList .fsPart .fsBottom .infoPart:last-child {
+                border-right: 0;
+            }
+
+            .contactList .fsPart .fsBottom .infoPart .fsTitle {
+                font-size: 24px;
+                font-weight: bold;
+                color: #0098d8;
+            }
+
+            .contactList .fsPart .fsBottom .infoPart:first-child .fsTitle {
+                font-size: 14px;
+                font-weight: normal;
+                color: #333333;
+            }
+
+            .contactList .fsPart .fsBottom .infoPart:last-child .fsTitle {
+                font-size: 14px;
+                font-weight: normal;
+                color: #FFFFFF;
+                width: 120px;
+                line-height: 30px;
+                height: 30px;
+                background: #0098d8;
+                text-align: center;
+                cursor: pointer;
+            }
+
+.contactList .fsPart1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    position: relative;
+}
+
+    .contactList .fsPart1 .fsMeng {
+        width: 1440px;
+        height: 50%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        margin-left: -720px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .contactList .fsPart1 .fsMeng .fsTitle {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0098d8;
+        }
+
+        .contactList .fsPart1 .fsMeng .fsHeng {
+            width: 32px;
+            height: 1px;
+            margin: 30px auto 30px 0;
+            background: #cccccc;
+        }
+
+        .contactList .fsPart1 .fsMeng .fsText {
+            font-size: 16px;
+            color: #333333;
+            line-height: 36px;
+            width: 300px;
+        }
+
+.btnView {
+    width: 60px;
+    height: 130px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index: 10;
+    display: none;
+}
+
+    .btnView div {
+        cursor: pointer;
+        border-radius: 4px;
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+    }
+
+    .btnView .liuyan {
+        background: url(../images/ly.png) no-repeat center;
+    }
+
+        .btnView .liuyan:hover {
+            background: url(../images/ly2.png) no-repeat center;
+        }
+
+    .btnView .backTop {
+        background: url(../images/top.png) no-repeat center;
+    }
+
+        .btnView .backTop:hover {
+            background: url(../images/top2.png) no-repeat center;
+        }
+
+.diandian {
+    margin-right: auto;
+}
+
+.fsPiao {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    background: rgba(0, 0, 0, .5);
+    z-index: 100;
+}
+
+    .fsPiao .fsWhite {
+        width: 800px;
+        height: 600px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 95px;
+        justify-content: space-around;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        background: #FFFFFF;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .fsPiao .close {
+        width: 29px;
+        height: 28px;
+        position: absolute;
+        top: 0;
+        right: -40px;
+        cursor: pointer;
+    }
+
+    .fsPiao .fsWhite .fsPart {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 48px;
+        width: 100%;
+    }
+
+        .fsPiao .fsWhite .fsPart .fsLeft {
+            width: 80px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+        }
+
+            .fsPiao .fsWhite .fsPart .fsLeft span {
+                color: #ee3e3e;
+                margin-top: 6px;
+                margin-right: 4px;
+            }
+
+            .fsPiao .fsWhite .fsPart .fsLeft p {
+                font-size: 16px;
+                color: #333333;
+            }
+
+        .fsPiao .fsWhite .fsPart .fsRight {
+            flex: 1;
+            border: 1px solid #e2e2e2;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        .fsPiao .fsWhite .fsPart select {
+            flex: 1;
+            line-height: 46px;
+            height: 46px;
+            margin: 0 2%;
+            outline: none;
+        }
+
+        .fsPiao .fsWhite .fsPart input {
+            flex: 1;
+            line-height: 46px;
+            height: 46px;
+            margin: 0 2%;
+            outline: none;
+        }
+
+    .fsPiao .fsWhite .fsPart2 {
+        height: 138px;
+        background: none;
+        align-items: flex-start;
+    }
+
+        .fsPiao .fsWhite .fsPart2 .fsRight {
+            height: 100%;
+        }
+
+        .fsPiao .fsWhite .fsPart2 textarea {
+            flex: 1;
+            line-height: 46px;
+            height: 100%;
+            margin: 0 2%;
+            outline: none;
+            resize: none;
+        }
+
+    .fsPiao .fsWhite .fsBtn {
+        width: 230px;
+        height: 48px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        background: #0098d8;
+        border-radius: 24px;
+    }
+
+.newsList {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+    .newsList .fsPart {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+        .newsList .fsPart .fsLeft {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            margin-right: 50px;
+        }
+
+            .newsList .fsPart .fsLeft img {
+                width: 352px;
+                height: 264px;
+            }
+
+        .newsList .fsPart .fsRight {
+            flex: 1;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+        }
+
+            .newsList .fsPart .fsRight .fsTitle {
+                font-size: 18px;
+                line-height: 30px;
+                white-space: normal;
+                max-width: 80%;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+
+            .newsList .fsPart .fsRight .fsText {
+                font-size: 14px;
+                line-height: 30px;
+                color: #808080;
+                max-height: 60px;
+                overflow: hidden;
+                margin: 20px auto 20px 0;
+            }
+
+            .newsList .fsPart .fsRight .fsBottom {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+            }
+
+                .newsList .fsPart .fsRight .fsBottom .fsMore {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    height: 30px;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                }
+
+                    .newsList .fsPart .fsRight .fsBottom .fsMore p {
+                        font-size: 14px;
+                        line-height: 30px;
+                        margin-right: 40px;
+                    }
+
+                    .newsList .fsPart .fsRight .fsBottom .fsMore img {
+                        margin-top: auto;
+                        margin-bottom: 2px;
+                    }
+
+        .newsList .fsPart:hover .fsRight .fsTitle {
+            color: #0098d8;
+        }
+
+        .newsList .fsPart:hover .fsRight .fsBottom .fsMore p {
+            color: #0098d8;
+        }
+
+        .newsList .fsPart:hover .fsRight .fsBottom .fsMore .fsImg1 {
+            display: none;
+        }
+
+        .newsList .fsPart:hover .fsRight .fsBottom .fsMore .fsImg2 {
+            display: block;
+        }
+
+        .newsList .fsPart .fsRight .fsBottom .fsTime {
+            font-size: 14px;
+            line-height: 30px;
+            margin-left: auto;
+            color: #808080;
+            margin-right: 20px;
+        }
+
+.fsPage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.aboutBody .fsPart2 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    overflow: hidden;
+}
+
+.bigPart {
+    position: absolute;
+    top: 50%;
+    height: 800px;
+    margin-top: -400px;
+    left: 0%;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    overflow: hidden;
+}
+
+    .bigPart .fsCnTitle {
+        font-weight: bold;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 24px;
+    }
+
+    .bigPart .fsEnTitle {
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .bigPart .fsHeng {
+        width: 32px;
+        height: 1px;
+        background: #FFFFFF;
+        margin-bottom: 3%;
+    }
+
+    .bigPart .fsPage {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+
+    .bigPart .gallery-top {
+        width: 1500px;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        margin-left: -750px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: space-between;
+    }
+
+    .bigPart .fsPage .gallery-top .swiper-wrapper {
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+    .bigPart .fsPage .gallery-top .swiper-slide {
+        width: auto;
+        height: auto;
+        height: 70px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        position: relative;
+    }
+
+        .bigPart .fsPage .gallery-top .swiper-slide p {
+            position: absolute;
+            top: 0;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+
+        .bigPart .fsPage .gallery-top .swiper-slide:nth-child(2n) p {
+            bottom: 0;
+            top: auto;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+
+    .bigPart .fsPage .gallery-top .swiper-slide-thumb-active .fsImg1 {
+        display: none;
+    }
+
+    .bigPart .fsPage .gallery-top .swiper-slide-thumb-active .fsImg2 {
+        display: block;
+    }
+
+    .bigPart .gallery-thumbs .swiper-container {
+        margin: auto;
+    }
+
+    .bigPart .gallery-thumbs .swiper-wrapper {
+        width: 600px;
+    }
+
+        .bigPart .gallery-thumbs .swiper-wrapper .swiper-slide {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            margin: auto;
+        }
+
+            .bigPart .gallery-thumbs .swiper-wrapper .swiper-slide .fsTime {
+                font-weight: bold;
+                font-size: 30px;
+                color: #FFFFFF;
+                line-height: 40px;
+            }
+
+            .bigPart .gallery-thumbs .swiper-wrapper .swiper-slide .fsHeng {
+                width: 20px;
+                height: 2px;
+                background: #FFFFFF;
+                margin-bottom: 30px;
+                margin-top: 10px;
+            }
+
+            .bigPart .gallery-thumbs .swiper-wrapper .swiper-slide .fsTitle {
+                font-size: 16px;
+                line-height: 30px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+
+
+.newsDetailBody {
+    background: url(../images/newsb.png) fixed no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    min-height: 960px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+}
+
+    .newsDetailBody .fsTop {
+        margin: 200px auto 100px auto;
+    }
+
+        .newsDetailBody .fsTop .fsTitle {
+            font-size: 36px;
+            line-height: 40px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .newsDetailBody .fsTop .fsTime {
+            font-size: 16px;
+            line-height: 30px;
+            color: #ffffff;
+            margin: 10px auto;
+            text-align: center;
+        }
+
+    .newsDetailBody .fsBottom {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        background: #FFFFFF;
+        margin-bottom: 120px;
+    }
+
+        .newsDetailBody .fsBottom .fsBody1440 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+            .newsDetailBody .fsBottom .fsBody1440 .fsLeft {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: column;
+                padding: 90px 0;
+            }
+
+                .newsDetailBody .fsBottom .fsBody1440 .fsLeft a {
+                    margin-bottom: 10px;
+                }
+
+
+            .newsDetailBody .fsBottom .fsBody1440 .fsShu {
+                width: 1px;
+                background: #CCCCCC;
+                height: 100%;
+                margin: 0 5%;
+            }
+
+            .newsDetailBody .fsBottom .fsBody1440 .fsRight {
+                padding: 90px 0;
+                flex: 1;
+                font-size: 14px;
+                line-height: 30px;
+                margin: 0 5%;
+            }
+
+                .newsDetailBody .fsBottom .fsBody1440 .fsRight img {
+                    display: inline-block;
+                }
+
+.serviceListBody {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+    .serviceListBody .fsPart {
+        margin-top: 120px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: auto;
+    }
+
+        .serviceListBody .fsPart .fsLeft {
+            flex: 1;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            padding-right: 5%;
+            flex-direction: column;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+        }
+
+            .serviceListBody .fsPart .fsLeft .fsCnTitle {
+                font-size: 24px;
+                font-weight: bold;
+                color: #333333;
+                margin-top: auto;
+            }
+
+            .serviceListBody .fsPart .fsLeft .fsEnTitle {
+                font-size: 16px;
+                line-height: 30px;
+                color: #808080;
+                text-transform: uppercase;
+            }
+
+            .serviceListBody .fsPart .fsLeft .fsHeng {
+                width: 30px;
+                height: 2px;
+                background: #808080;
+                margin: 30px auto 30px 0;
+            }
+
+            .serviceListBody .fsPart .fsLeft .fsText {
+                font-size: 14px;
+                line-height: 30px;
+            }
+
+            .serviceListBody .fsPart .fsLeft .fsMore {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                width: 100px;
+                padding: 0 40px;
+                justify-content: space-between;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                background: #0098d8;
+                height: 46px;
+                margin-top: auto;
+            }
+
+                .serviceListBody .fsPart .fsLeft .fsMore p {
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+
+        .serviceListBody .fsPart .fsRight {
+            flex: 1;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            position: relative;
+        }
+
+        .serviceListBody .fsPart:nth-child(2n) {
+            flex-direction: row-reverse;
+        }
+
+            .serviceListBody .fsPart:nth-child(2n) .fsLeft {
+                padding-left: 5%;
+                padding-right: 0;
+            }
+
+.dataListBody {
+    /*display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;*/
+    width: 100%;
+    padding: 100px 0;
+    height: 600px;
+    background: url(../images/hyl.jpg) no-repeat center;
+}
+
+    .dataListBody .fsBody1440 {
+        /*display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;*/
+        overflow: hidden;
+    }
+
+    .dataListBody .fsLeft {
+        /*flex: 0.2;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;*/
+        padding-top: 80px;
+        width: 17%;
+        float: left
+    }
+    .ioioio{
+        width: 78%;
+        float: right;
+        overflow: hidden;
+    }
+        .dataListBody .fsLeft .fsCnTitle {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+        }
+
+        .dataListBody .fsLeft .fsEnTitle {
+            font-size: 14px;
+            color: #808080;
+            line-height: 30px;
+            text-transform: uppercase;
+        }
+
+        .dataListBody .fsLeft .fsHeng {
+            width: 30px;
+            background: #808080;
+            height: 2px;
+            margin: 25px auto 25px 0;
+        }
+
+    .dataListBody .fsMid {
+        /*flex: 0.6;*/
+        background: url(../images/dataB.jpg) no-repeat right top;
+       /* margin-top: -30px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 70px;*/
+        float: left;
+        /*height: 560px;*/
+        width: 62%;
+    }
+    .dataListBody .fsMid ul{padding-top: 230px}
+    .all1{float: right;width: 32%}
+        .dataListBody .fsMid .fsPart {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+
+            .dataListBody .fsMid .fsPart p {
+                font-size: 16px;
+                color: #333333;
+                text-transform: uppercase;
+                width: 150px;
+                /*text-align: right;*/
+            }
+
+            .dataListBody .fsMid .fsPart .fsHeng {
+                width: 130px;
+                height: 1px;
+                background: #cccccc;
+                margin: 0 20px;
+            }
+
+            .dataListBody .fsMid .fsPart:hover p {
+                color: #0098d8;
+            }
+
+        .dataListBody .fsMid .sel p {
+            color: #0098d8;
+        }
+
+    .dataListBody .fsRight {
+        /*flex: 0.2;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 10% auto;
+        flex-direction: column;*/
+        padding-top: 55px
+    }
+
+        .dataListBody .fsRight .fsCnTitle {
+            font-size: 24px;
+            line-height: 30px;
+            color: #333333;
+            font-weight: bold;
+        }
+
+        .dataListBody .fsRight .fsHeng {
+            width: 32px;
+            height: 2px;
+            background: #000000;
+            margin: 30px auto 20px 0;
+        }
+
+        .dataListBody .fsRight .fsText {
+            position: relative;
+            padding-left: 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #808080;
+            text-transform: uppercase;
+        }
+
+            .dataListBody .fsRight .fsText:before {
+                position: absolute;
+                width: 8px;
+                height: 8px;
+                border-radius: 100%;
+                background: #808080;
+                left: 6px;
+                top: 50%;
+                margin-top: -4px;
+                content: "";
+            }
+
+.technologyListBody {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+    .technologyListBody .fsTop .fsBody1440 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        padding: 120px 0;
+    }
+
+        .technologyListBody .fsTop .fsBody1440 .fsCnTitle {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+            text-align: center;
+        }
+
+        .technologyListBody .fsTop .fsBody1440 .fsEnTitle {
+            font-size: 16px;
+            color: #333333;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 30px;
+            margin-bottom: 40px;
+        }
+
+        .technologyListBody .fsTop .fsBody1440 .fsPart {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            max-width: 1170px;
+            margin: 0 auto;
+            width: 100%;
+            cursor: pointer;
+        }
+
+            .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                height: 89px;
+                align-items: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                border-bottom: 1px solid #e8e8e9;
+            }
+
+                .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 .fsCnText {
+                    width: 100px;
+                    height: 34px;
+                    text-align: center;
+                    background: #333333;
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    line-height: 34px;
+                }
+
+                .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 .fsTitle {
+                    line-height: 34px;
+                    margin: 0 10px;
+                    font-size: 16px;
+                    color: #333333;
+                }
+
+                .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 .fsTime {
+                    line-height: 34px;
+                    font-size: 14px;
+                    color: #808080;
+                    margin-left: auto;
+                }
+
+                .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 .fsBtn {
+                    width: 20px;
+                    height: 20px;
+                    background: url(../images/y.png) no-repeat center;
+                    margin: auto 20px auto 40px;
+                }
+
+        .technologyListBody .fsTop .fsBody1440 .fsSel .fsPart1 .fsBtn {
+            background: url(../images/x.png) no-repeat center;
+        }
+
+        .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart2 {
+            width: 100%;
+            height: 201px;
+            background: url(../images/tt.jpg) no-repeat center;
+            display: none;
+        }
+
+        .technologyListBody .fsTop .fsBody1440 .fsPart2 .fsPart3 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            padding: 15px 0;
+            height: 171px;
+        }
+
+            .technologyListBody .fsTop .fsBody1440 .fsPart2 .fsPart3 p {
+                font-size: 16px;
+                line-height: 36px;
+                color: #fffefe;
+                margin: 0 120px;
+            }
+
+    .technologyListBody .fsTop .fsPage {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        margin: 50px auto 0 auto;
+    }
+
+    .technologyListBody .fsBottom {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        height: 700px;
+        background: url(../images/bgbg.jpg) no-repeat center;
+    }
+
+        .technologyListBody .fsBottom .fsCnTitle {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            line-height: 40px;
+            margin-top: 40px;
+        }
+
+        .technologyListBody .fsBottom .fsEnTitle {
+            font-size: 16p;
+            line-height: 30px;
+            text-align: center;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+
+        .technologyListBody .fsBottom .fsBody1440 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            height: 440px;
+            margin-top: auto;
+        }
+
+            .technologyListBody .fsBottom .fsBody1440 .fsLeft {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                height: 360px;
+                padding-bottom: 80px;
+                justify-content: flex-end;
+                align-items: flex-end;
+                flex: 0.3;
+            }
+
+                .technologyListBody .fsBottom .fsBody1440 .fsLeft .fsPart {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    cursor: pointer;
+                }
+
+                    .technologyListBody .fsBottom .fsBody1440 .fsLeft .fsPart p {
+                        color: #FFFFFF;
+                        font-size: 24px;
+                        margin-right: 15px;
+                    }
+
+            .technologyListBody .fsBottom .fsBody1440 .fsMid {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                height: 360px;
+                padding-bottom: 80px;
+                justify-content: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                -webkit-box-pack: center;
+                align-items: flex-start;
+                flex: 0.4;
+            }
+
+                .technologyListBody .fsBottom .fsBody1440 .fsMid .fsPart {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    -webkit-box-pack: center;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    cursor: pointer;
+                }
+
+                    .technologyListBody .fsBottom .fsBody1440 .fsMid .fsPart p {
+                        color: #FFFFFF;
+                        font-size: 24px;
+                        text-align: center;
+                        margin-bottom: 15px;
+                    }
+
+
+            .technologyListBody .fsBottom .fsBody1440 .fsRight {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                height: 360px;
+                padding-bottom: 80px;
+                justify-content: flex-start;
+                align-items: flex-end;
+                flex: 0.3;
+            }
+
+                .technologyListBody .fsBottom .fsBody1440 .fsRight .fsPart {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    align-items: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    cursor: pointer;
+                }
+
+                    .technologyListBody .fsBottom .fsBody1440 .fsRight .fsPart p {
+                        color: #FFFFFF;
+                        font-size: 24px;
+                        text-align: center;
+                        margin-left: 15px;
+                    }
+
+.fsPiao2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    background: rgba(0, 0, 0, .5);
+    z-index: 10;
+}
+
+    .fsPiao2 .fsWhite {
+        width: 950px;
+        max-height:700px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 40px;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        background: #FFFFFF;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .fsPiao2 .close {
+        width: 29px;
+        height: 28px;
+        position: absolute;
+        top: 22px;
+        right: 21px;
+        cursor: pointer;
+    }
+
+    .fsPiao2 .fsTop {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        margin-bottom: 20px;
+    }
+
+        .fsPiao2 .fsTop .fsBtn {
+            width: 140px;
+            height: 44px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            border: 1px solid #0098d8;
+            color: #0098d8;
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin: 0 10px;
+            cursor: pointer;
+            border-radius: 22px;
+        }
+
+        .fsPiao2 .fsTop .fsSel {
+            color: #fff;
+            background: #0098d8;
+        }
+
+    .fsPiao2 .fsMid {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        height: 90px;
+        padding:4.5px 0;
+        border-top: 1px solid #f2f2f2;
+        margin-bottom: 10px;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap:wrap;
+    }
+
+        .fsPiao2 .fsMid .fsBtn {
+            line-height: 28px;
+            height: 28px;
+            border-bottom: 2px solid #fff;
+            font-size: 16px;
+            color: #333333;
+            cursor: pointer;
+            text-align:center;
+            margin:0 10px;
+        }
+
+        .fsPiao2 .fsMid .fsSel {
+            border-bottom-color: #0098d8;
+            color: #0098d8;
+        }
+
+    .fsPiao2 .fsBottom {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+        .fsPiao2 .fsBottom .fsPart {
+            width: 45%;
+            margin: 0 1%;
+            background: #f2f2f2;
+            padding: 0 1%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            height: 48px;
+            margin-bottom: 20px;
+        }
+
+            .fsPiao2 .fsBottom .fsPart .fsTitle {
+                font-size: 16px;
+                color: #333333;
+
+                max-width:240px;
+                white-space:nowrap;text-overflow:ellipsis;
+                overflow:hidden;
+            }
+
+            .fsPiao2 .fsBottom .fsPart .fsText {
+                font-size: 16px;
+                color: #333333;
+            }
+
+            .fsPiao2 .fsBottom .fsPart a {
+                width: 20px;
+                height: 22px;
+                background: url(../images/dl_un.png) no-repeat center;
+            }
+
+            .fsPiao2 .fsBottom .fsPart:hover p {
+                color: #FFFFFF;
+            }
+
+            .fsPiao2 .fsBottom .fsPart:hover {
+                background: #0098d8;
+            }
+
+                .fsPiao2 .fsBottom .fsPart:hover a {
+                    background: url(../images/dl_sel.png) no-repeat center;
+                }
+
+.sb3Body {
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    left: 50%;
+    width: 630px;
+    margin-left: -315px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+    .sb3Body .fsPart4 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        flex: 1;
+        height: 270px;
+        margin-left: -35px;
+    }
+
+        .sb3Body .fsPart4 .fsBtn {
+            width: 153px;
+            height: 133px;
+            background: url(../images/wb.png) no-repeat center;
+            background-size: cover;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+        }
+
+        .sb3Body .fsPart4:first-child {
+            margin-left: 0;
+        }
+
+        .sb3Body .fsPart4:nth-child(2n) {
+            justify-content: space-between;
+        }
+
+        .sb3Body .fsPart4 .fsBtn .fsCnText {
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 8px;
+            white-space: nowrap;
+            max-width: 140px;
+            text-align: center;
+            color: #000000;
+        }
+
+        .sb3Body .fsPart4 .fsBtn .fsEnText {
+            font-size: 14px;
+            line-height: 20px;
+            color: #808080;
+            text-transform: uppercase;
+        }
+
+        .sb3Body .fsPart4 .fsBtn:hover {
+            background: url(../images/bb.png) no-repeat center;
+            background-size: cover;
+        }
+
+            .sb3Body .fsPart4 .fsBtn:hover p {
+                color: #FFFFFF;
+            }
+
+            .sb3Body .fsPart4 .fsBtn:hover .fsImg1 {
+                display: none;
+            }
+
+            .sb3Body .fsPart4 .fsBtn:hover .fsImg2 {
+                display: block;
+            }
+
+
+    .sb3Body .fsSel .fsBtn {
+        background: url(../images/bb.png) no-repeat center;
+        background-size: cover;
+    }
+
+        .sb3Body .fsSel .fsBtn p {
+            color: #FFFFFF !important;
+        }
+
+        .sb3Body .fsSel .fsBtn .fsImg1 {
+            display: none;
+        }
+
+        .sb3Body .fsSel .fsBtn .fsImg2 {
+            display: block;
+        }
+
+.jjBody {
+    padding: 120px 0;
+}
+
+    .jjBody .fsBody1440 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .jjBody .fsBody1440 .fsTitle {
+            font-size: 30px;
+            line-height: 30px;
+            color: #000000;
+            text-align: center;
+        }
+
+        .jjBody .fsBody1440 .fsText {
+            margin-top: 40px;
+            font-size: 16px;
+            line-height: 36px;
+            color: #333333;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+            .jjBody .fsBody1440 .fsText p {
+                font-size: 16px;
+                line-height: 40px;
+                color: #333333;
+            }
+
+            .jjBody .fsBody1440 .fsText .fsBack {
+                width: 52px;
+                height: 52px;
+                background: url(../images/back.png) no-repeat center;
+                margin: 140px auto 0px auto;
+            }
+
+.xtBody .fsPart {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+    .xtBody .fsPart .fsLeft p {
+        max-width: 400px;
+    }
+
+    .xtBody .fsPart .fsRight p {
+        max-width: 650px;
+    }
+
+    .xtBody .fsPart .fsBtn {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .xtBody .fsPart .fsBtn p {
+            font-size: 16px;
+            color: #333333;
+            line-height: 50px;
+            text-align: center;
+        }
+
+.erBody .fsPart {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+}
+
+    .erBody .fsPart .fsLeft {
+        margin-bottom: auto;
+    }
+
+    .erBody .fsPart .fsRight {
+        margin-left: 30px;
+    }
+
+        .erBody .fsPart .fsRight p {
+            max-width: 800px;
+        }
+
+
+.indexTopNav .xiala {
+    background: rgba(255,255,255,.9);
+    width: 70px;
+    padding: 10px 20px;
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -55px;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.innerTopNav .xiala {
+    background: rgba(255,255,255,.95);
+}
+
+.indexTopNav .xiala a {
+    margin: 10px auto;
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    height: 30px;
+    line-height: normal;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    border-bottom: 0;
+}
+
+    .indexTopNav .xiala a:hover {
+        color: #0098d8;
+    }
+
+.xiala .fsSel {
+    color: #0098d8;
+}
+
+.pddddd {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+    .pddddd .fsPart2:nth-child(2) {
+        background: #f2f2f2;
+    }
+
+    .pddddd .fsPart2:nth-child(3) {
+        background: #f2f2f2;
+    }
+
+        .pddddd .fsPart2:nth-child(3) .fsBody1600 {
+            flex-direction: row-reverse;
+        }
+
+    .pddddd .fsPart1:nth-child(4) .fsBody1440 {
+        flex-direction: row-reverse;
+    }
+
+
+
+.newsDetailBody .fsBottom .fsBody1440 .fsLeft a {
+    height: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    background: #cccccc;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+
+.indexBanner .swiper-slide {
+    position: relative;
+}
+
+    .indexBanner .swiper-slide .fsMeng {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        animation: fadeInUp 1.5s 1;
+        -webkit-animation: fadeInUp 1.5s 1;
+    }
+
+        .indexBanner .swiper-slide .fsMeng .fsCnTitle {
+            font-size: 48px;
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .indexBanner .swiper-slide .fsMeng .fsCnText {
+            font-size: 36px;
+            color: #fff;
+        }
+
+        .indexBanner .swiper-slide .fsMeng .fsEnText {
+            display: none;
+        }
+
+.innerBanner .fsMeng {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    animation: fadeInUp 1.5s 1;
+    -webkit-animation: fadeInUp 1.5s 1;
+}
+
+    .innerBanner .fsMeng .fsCnTitle {
+        font-size: 48px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        margin-top: 0px;
+    }
+
+
+    .innerBanner .fsMeng .fsCnText {
+        font-size: 24px;
+        color: #fff;
+    }
+
+.superInnerBanner {
+    position: relative;
+}
+
+    .superInnerBanner .fsMeng {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        animation: fadeInUp 1.5s 1;
+        -webkit-animation: fadeInUp 1.5s 1;
+    }
+
+        .superInnerBanner .fsMeng .fsCnTitle {
+            font-size: 48px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .superInnerBanner .fsMeng .fsCnText {
+            font-size: 24px;
+            text-align: center;
+        }
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+/*.indexBanner .swiper-slide:nth-child(2) .fsMeng {
+     animation: fadeInUp 1.5s infinite 3s;
+        -webkit-animation:fadeInUp 1.5s infinite 3s;
+}*/
+
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        -ms-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+}
+
+.diandian:hover .fsImg1 {
+    display: none;
+}
+
+.diandian:hover .fsImg2 {
+    display: block;
+}
+
+.ooo {
+    margin-top: -20%;
+}
+
+@keyframes main-scroll-frame {
+    11% {
+        margin-right: 0px;
+    }
+
+    23% {
+        margin-right: -2px;
+    }
+
+    34% {
+        margin-right: -5px;
+    }
+
+    46% {
+        margin-right: -8px;
+    }
+
+    57% {
+        margin-right: -11px;
+    }
+
+    69% {
+        margin-right: -14px;
+    }
+
+    80% {
+        margin-right: -17px;
+    }
+
+    92% {
+        margin-right: -20px;
+    }
+}
+
+@-webkit-keyframes main-scroll-frame {
+    11% {
+        margin-right: 0px;
+    }
+
+    23% {
+        margin-right: -2px;
+    }
+
+    34% {
+        margin-right: -5px;
+    }
+
+    46% {
+        margin-right: -8px;
+    }
+
+    57% {
+        margin-right: -11px;
+    }
+
+    69% {
+        margin-right: -14px;
+    }
+
+    80% {
+        margin-right: -17px;
+    }
+
+    92% {
+        margin-right: -20px;
+    }
+}
+
+@-moz-keyframes main-scroll-frame {
+    11% {
+        margin-right: 0px;
+    }
+
+    23% {
+        margin-right: -2px;
+    }
+
+    34% {
+        margin-right: -5px;
+    }
+
+    46% {
+        margin-right: -8px;
+    }
+
+    57% {
+        margin-right: -11px;
+    }
+
+    69% {
+        margin-right: -14px;
+    }
+
+    80% {
+        margin-right: -17px;
+    }
+
+    92% {
+        margin-right: -20px;
+    }
+}
+
+.main-scroll-motion {
+    animation-name: main-scroll-frame;
+    animation-duration: 1s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: main-scroll-frame;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: step-start;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: main-scroll-frame;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: step-start;
+    -moz-animation-iteration-count: infinite;
+}
+
+.cnbds {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -50px auto 30px auto;
+}
+
+
+    .cnbds .fsBtn {
+        width: 153px;
+        height: 133px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+        .cnbds .fsBtn .fsCnText {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 20px;
+            margin-top: 8px;
+            white-space: nowrap;
+            max-width: 140px;
+            text-align: center;
+            color: #000000;
+        }
+
+        .cnbds .fsBtn .fsEnText {
+            font-size: 14px;
+            line-height: 20px;
+            color: #808080;
+            text-transform: uppercase;
+        }
+
+.gungun {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.searchTop {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+    .searchTop .fsMeng {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+    }
+
+        .searchTop .fsMeng .fsS {
+            width: 898px;
+            height: 48px;
+            border: 1px solid #fff;
+            border-radius: 36px;
+            overflow: hidden;
+            background: #fff;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .searchTop .fsMeng .fsS input {
+                width: 700px;
+                margin-left: 20px;
+                line-height: 48px;
+                height: 48px;
+                font-size: 16px;
+                color: #000;
+            }
+
+            .searchTop .fsMeng .fsS .fsSb {
+                width: 168px;
+                height: 48px;
+                background: #0098d8;
+                line-height: 48px;
+                text-align: center;
+                cursor: pointer;
+                font-size: 16px;
+                color: #ffffff;
+                border-bottom-right-radius: 36px;
+                border-top-right-radius: 36px;
+            }
+
+.xjxj {
+    margin: 100px auto 0 auto;
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+    -webkit-animation: gunmove 1.5s infinite;
+    animation: gunmove 1.5s infinite;
+    background: url(../images/move_yuan.png) no-repeat center;
+}
+
+.ooop {
+    margin-right: 30%;
+    margin-bottom: -20%;
+    margin-left: auto !important;
+}
+
+@-webkit-keyframes gunmove {
+    0% {
+        margin-top: 100px;
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 100px;
+        opacity: 0;
+    }
+}
+
+@keyframes gunmove {
+    0% {
+        margin-top: 100px;
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 100px;
+        opacity: 0;
+    }
+}
+
+
+.active {
+    background: rgba(242, 242, 242, 1);
+}
+
+.ssssView {
+    position: absolute;
+    right: 60px;
+    top: 100%;
+    border-radius: 15px;
+    width: 160px;
+    height: 30px;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #0098d8;
+    display: none;
+}
+
+    .ssssView input {
+        width: 110px;
+        line-height: 30px;
+        font-size: 12px;
+        color: #000;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .ssssView p {
+        font-size: 12px;
+        color: #fff;
+        background: #0098d8;
+        line-height: 30px;
+        width: 40px;
+        text-align: center;
+        float: left;
+    }
+
+.xljgd {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -35px;
+    height: 70px;
+}
+
+    .xljgd p {
+        font-size: 16px;
+        color: #fff;
+        line-height: 30px;
+    }
+
+    .xljgd img {
+        margin-top: 20px;
+    }
+
+
+@-webkit-keyframes down {
+    11% {
+        margin-top: 0px;
+    }
+
+    23% {
+        margin-top: 2px;
+    }
+
+    34% {
+        margin-top: 5px;
+    }
+
+    46% {
+        margin-top: 8px;
+    }
+
+    57% {
+        margin-top: 11px;
+    }
+
+    69% {
+        margin-top: 14px;
+    }
+
+    80% {
+        margin-top: 17px;
+    }
+
+    92% {
+        margin-top: 20px;
+    }
+}
+
+@-moz-keyframes down {
+    11% {
+        margin-top: 0px;
+    }
+
+    23% {
+        margin-top: 2px;
+    }
+
+    34% {
+        margin-top: 5px;
+    }
+
+    46% {
+        margin-top: 8px;
+    }
+
+    57% {
+        margin-top: 11px;
+    }
+
+    69% {
+        margin-top: 14px;
+    }
+
+    80% {
+        margin-top: 17px;
+    }
+
+    92% {
+        margin-top: 20px;
+    }
+}
+
+.dddd {
+    animation-name: down;
+    animation-duration: 1s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: down;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: step-start;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: down;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: step-start;
+    -moz-animation-iteration-count: infinite;
+}
+
+
+.proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .jiujiu {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+
+.proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area {
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transition: opacity .5s ease-out;
+    display: block;
+}
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+        -webkit-border-radius: 50%;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 50%;
+        -moz-background-clip: padding;
+        border-radius: 50%;
+        background-clip: padding-box;
+        background: url("/images/shou.png") no-repeat center;
+    }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-shadow:after {
+        box-shadow: inset 0 0 5em rgba(0,205,236,.16);
+    }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-white {
+        background-color: #fff;
+        border: 1px solid #00c1de;
+    }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-dot {
+        z-index: 1;
+        /*background-color: #0098d8;
+    border: 1px solid rgba(0,205,236,.37)*/
+    }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-10 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-10:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out 225ms infinite;
+            animation: ripple 4.5s ease-out 225ms infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-20 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-20:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out .45s infinite;
+            animation: ripple 4.5s ease-out .45s infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-30 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-30:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out 675ms infinite;
+            animation: ripple 4.5s ease-out 675ms infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-40 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-40:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out .9s infinite;
+            animation: ripple 4.5s ease-out .9s infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-50 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-50:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out 1125ms infinite;
+            animation: ripple 4.5s ease-out 1125ms infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-60 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-60:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out 1.35s infinite;
+            animation: ripple 4.5s ease-out 1.35s infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-70 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-70:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out 1575ms infinite;
+            animation: ripple 4.5s ease-out 1575ms infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-80 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-80:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out 1.8s infinite;
+            animation: ripple 4.5s ease-out 1.8s infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-90 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-90:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out 2025ms infinite;
+            animation: ripple 4.5s ease-out 2025ms infinite;
+        }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-100 {
+        width: 100%;
+        height: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .point-area .point-100:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 2px solid #0098d8;
+            opacity: 0;
+            -webkit-animation: ripple 4.5s ease-out 2.25s infinite;
+            animation: ripple 4.5s ease-out 2.25s infinite;
+        }
+
+
+@-webkit-keyframes ripple {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.1);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes ripple {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.1);
+        transform: scale(.1);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+.indexBanner .swiper-slide .fsMeng p {
+    margin-left: -40%;
+}
+
+.indexBanner .swiper-slide .fsMeng .xjxj {
+    margin-left: 28%;
+}
+
+
+.contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a {
+    box-shadow: 0 0 4px #ccc;
+}
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTime {
+        font-size: 24px;
+        font-weight: bold;
+        color: #0098d8;
+        margin-top:40px;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle {
+        display: flex;
+        background: none;
+        align-items: center;
+        margin: auto 0 0 0
+    }
+
+        .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle img {
+            margin-right: 20px;
+            width: 30px;
+            height: 30px;
+        }
+
+.jscsba {
+    color: #808080;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText {
+    display: flex;
+    background: none;
+    align-items: center;
+    margin-top:auto;
+}
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText img {
+        margin-right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText p {
+        color: #333333;
+        font-size: 14px;
+        line-height:20px;
+    }
+
+.contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a {
+    box-shadow: 0 0 4px #ccc;
+}
+
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsBtn {
+        width: 90%;
+        display: flex;
+        margin: 0 auto auto auto;
+        justify-content: space-between;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsMore {
+        margin: 40px 0;
+    }
+
+.init {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contactList .fsPart4 .fsBody1440 {
+    padding: 30px 0 60px 0;
+}
+
+
+.menu_m {
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+    height: 30px;
+    z-index: 100;
+    top: 24px;
+    display: none;
+}
+
+    .menu_m i {
+        float: right;
+        border-top: 3px solid #0098d8;
+        transition: all 0.2s ease-out 0s;
+        -webkit-transition: all 0.2s ease-out 0s;
+    }
+
+        .menu_m i:nth-child(1) {
+            width: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .menu_m i:nth-child(2) {
+            width: 60%;
+            position: absolute;
+            right: 0;
+            top: 14px;
+        }
+
+        .menu_m i:nth-child(3) {
+            width: 85%;
+            position: absolute;
+            right: 0;
+            top: 28px;
+        }
+
+    .menu_m:hover i {
+        width: 80%;
+    }
+
+.nav_main {
+    position: fixed;
+    right: -465px;
+    top: 0;
+    bottom: 0;
+    width: 465px;
+    background: #f4f4f4;
+    z-index: 50;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: all 0.6s cubic-bezier(0,1,1,1) 0s;
+    -webkit-transition: all 0.6s cubic-bezier(0,1,1,1) 0s;
+}
+
+    .nav_main.show {
+        right: 0;
+    }
+
+    .nav_main .inner {
+        padding: 0 23px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 45%;
+        transform: translateY(-45%);
+        -webkit-transform: translateY(-45%);
+        height: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav_main .d {
+        text-align: center;
+        width: 300px;
+    }
+
+        .nav_main .d h3 {
+            font-size: 26px;
+            color: #333;
+            text-align: center !important;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+            .nav_main .d h3 i {
+                display: inline-block;
+                width: 5px;
+                height: 5px;
+                border-radius: 100%;
+                vertical-align: middle;
+                margin: 0 10px 4px;
+                background: #333;
+                line-height: 0;
+            }
+
+        .nav_main .d a {
+            display: block;
+            width: 100%;
+        }
+
+        .nav_main .d ul li {
+            float: left;
+            padding: 10px 5px 0 5px;
+        }
+
+            .nav_main .d ul li a {
+                display: block;
+                color: #fff;
+                font-size: 18px;
+                color: #333;
+            }
+
+        .nav_main .d ul {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            float: none;
+        }
+
+.act {
+    color: #333;
+}
+
+    .act .menu_m i {
+        border-color: #333;
+    }
+
+    .act i:nth-child(1) {
+        transform: translate(0,14px) rotate(45deg);
+        width: 80%;
+    }
+
+    .act i:nth-child(2) {
+        opacity: 0;
+    }
+
+    .act i:nth-child(3) {
+        transform: translate(0,-14px) rotate(-45deg);
+        width: 80%;
+    }
+
+.nmsl {
+    max-width: none;
+}
+
+.noneMaxWidth {
+    max-width: none;
+}
+
+.ioioio {
+    /*display: flex;
+    flex: 0.8;*/
+    /*width: 80%;
+    float: right*/
+}
+
+.lxxx {
+    overflow: hidden;
+    width: 100%;
+}
+
+/*.lxxx img {
+        max-width: none;
+    }*/
+
+@media only screen and (max-width: 1600px) {
+
+    .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-container {
+        width: 94%;
+    }
+
+    .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-button-next {
+        right: 0;
+    }
+
+    .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-button-prev {
+        left: 0;
+    }
+
+    .yiqiBody .fsBottom .fsPart2 .fsBody1600 {
+        width: 98%;
+        left: 1%;
+        margin-left: 0;
+    }
+
+    .fsBody1600 {
+        width: 100%;
+    }
+
+        /*.indexBody .fsPart2 .fsBody1440 .fsBottom a {
+        width: 28%;
+        height: 225px;
+        margin-left: 8%
+    }
+
+        .indexBody .fsPart2 .fsBody1440 .fsBottom a .fsTop {
+            width: 100px;
+            height: 100px;
+        }
+
+            .indexBody .fsPart2 .fsBody1440 .fsBottom a .fsTop img {
+                width: 60px;
+                height: 60px;
+                padding-top: 13px
+            }*/
+
+}
+
+@media only screen and (max-width: 1500px) {
+    .fsBody1440 {
+        width: 98%;
+        margin: 0 1%;
+    }
+
+    .innerBody .fsBody1440:nth-child(1) {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .mianbaoxue {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    .fsFoot .fsBody1440 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .fsFoot .fsBottom .fsLeft {
+        margin-left: 3%;
+    }
+
+    .fsFoot .fsBottom .fsRight {
+        margin-right: 3%;
+    }
+
+    .indexTopNav .fsBody1440, .newsList, .technologyListBody .fsTop .fsBody1440, .newsDetailBody .fsBottom .fsBody1440, .mianbaoxue .fsBody1440, .yiqiBody .fsTop .fsBody1440, .yiqiBody .fsBottom .fsTitle .fsBody1440, .jjBody .fsBody1440, .positionList .fsBody1440 {
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .agentiBody, .dataListBody .fsBody1440, .indexBody .fsPart1 .fsBody1440, .indexBody .fsPart2 .fsBody1440, .indexBody .fsPart3 .fsBody1440, .indexBody .fsPart4 .fsBody1440, .proCenterBody .fsPart1 .fsBody1440, .proCenterBody .fsPart3 .fsTop .fsBody1440, .proCenterBody .fsPart3 .fsBottom .fsBody1440, .aboutBody .fsPart1, .aboutBody .fsPart4 .fsBody1440, .pddddd .fsPart1 .fsBody1440, .serviceListBody, .fsFoot .fsTop {
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    #chuangshi {
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .yiqiBody .fsBottom .fsPart2 .fsBody1600 {
+        width: 94%;
+        left: 3%;
+        margin-left: 0;
+    }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight .fsTop .hg div p {
+        font-size: 16px;
+    }
+
+    .newsDetailBody .fsBottom .fsBody1440 .fsRight {
+        margin: 0 0;
+    }
+
+
+    .indexBody .fsPart1 .fsBody1440 {
+        justify-content: center;
+    }
+
+        .indexBody .fsPart1 .fsBody1440 .fsRight {
+            justify-content: center;
+            align-items: flex-start;
+            width: 40%;
+        }
+
+
+
+        .indexBody .fsPart1 .fsBody1440 .fsLeft {
+            width: 57%;
+            margin-right: 3%;
+        }
+
+    .indexBody .fsPart3 .fsBody1440 {
+        width: 98%;
+        margin-left: 0;
+        left: 1%;
+        flex-direction: column;
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a {
+        width: 32%;
+        margin-right: 2%;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .indexBody .fsPart4 .fsBody1440 .fsBottom a img {
+            width: 100%;
+            height: auto;
+        }
+
+        .indexBody .fsPart4 .fsBody1440 .fsBottom a:last-child {
+            margin-right: 0;
+        }
+
+        .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle {
+            width: 100%;
+            height: 60px;
+            margin-bottom: 15px;
+        }
+
+    .fsFoot .fsTop .fsMid .fsPart {
+        margin-right: 50px;
+    }
+
+    #ppap {
+        width: 100%;
+        margin: 0;
+    }
+
+    .aboutBody .fsPart1 .fsBottom img {
+        width: 32%;
+    }
+
+    .bigPart .gallery-top {
+        width: 100%;
+    }
+
+    .aboutBody .fsPart1 {
+        padding-top: 50px;
+    }
+
+        .aboutBody .fsPart1 .fsText {
+            max-width: none;
+        }
+
+    .bigPart .gallery-top {
+        width: 1200px;
+        margin-left: -600px;
+    }
+
+    .bigPart .fsPage .gallery-top .swiper-slide p {
+        text-indent: -2em;
+    }
+
+    .aboutBody .fsPart4 .fsPart {
+        width: 32%;
+    }
+
+        .aboutBody .fsPart4 .fsPart .fsImg2 .fsText {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+    .aboutBody .fsPart5 .fsBody1440 {
+        width: 94%;
+        left: 3%;
+        margin-left: 0;
+    }
+
+    .innerNav {
+        margin-top: 0;
+    }
+
+    .proCenterBody .fsPart2 .fsBody1440 {
+        width: 94%;
+        left: 3%;
+        margin-left: 0;
+    }
+
+    .yiqiBody .fsTop .fsBody1440 .fsRight {
+        width: 40%;
+    }
+
+    .yiqiBody .fsTop .fsBody1440 .fsLeft {
+        width: 650px;
+    }
+
+    .technologyListBody .fsBottom .fsBody1440 {
+        width: 800px;
+        justify-content: space-between;
+        margin: auto auto 0 auto;
+    }
+
+        .technologyListBody .fsBottom .fsBody1440 .fsLeft, .technologyListBody .fsBottom .fsBody1440 .fsMid, .technologyListBody .fsBottom .fsBody1440 .fsRight {
+            flex: 0;
+        }
+
+            .technologyListBody .fsBottom .fsBody1440 .fsMid .fsPart p, .technologyListBody .fsBottom .fsBody1440 .fsLeft .fsPart p, .technologyListBody .fsBottom .fsBody1440 .fsRight .fsPart p {
+                white-space: nowrap;
+            }
+
+        .technologyListBody .fsBottom .fsBody1440 .fsLeft {
+            margin-left: -76px;
+            margin-right: 76px;
+        }
+
+    .lifeBodyDetail .fsBody1440 {
+        width: 94%;
+        left: 3%;
+        margin-left: 0;
+    }
+    .lifeBodyDetail .ua1{width: 100%;display: block;}
+    .lifeBody {
+        width: 100%;
+    }
+
+        .lifeBody .fsBody1440 .innerNav {
+            margin-top: 0;
+        }
+
+    .contactList .fsPart1 .fsMeng {
+        width: 94%;
+        left: 3%;
+        margin-left: 0;
+    }
+
+        .contactList .fsPart1 .fsMeng .fsText {
+            line-height: 26px;
+            font-size: 14px;
+            width: 200px;
+        }
+
+    .yiqiBody .fsBottom .fsPart2 .infoPart .fsText, .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsLeft .fsText {
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div {
+        margin-bottom:10px;
+        width:32%;
+        margin-right:1%;
+        justify-content:center;
+        align-items:center;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+        .aboutBody .fsPart5 .fsBody1440 .fsPart .fsLeft {
+            width: 30%;
+        }
+
+        .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight {
+            width: 69%;
+        }
+        .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div {
+            margin-top:auto;
+            margin-bottom:auto !important;
+        }
+
+            /*.aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div {
+                width: 49%;
+                margin-right: 2%;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px !important;
+            }*/
+
+                /*.aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div:nth-child(3n) {
+                    margin-right: 2%;
+                }
+
+                .aboutBody .fsPart5 .fsBody1440 .fsPart .fsRight div:nth-child(2n) {
+                    margin-right: 0;
+                }*/
+
+        .aboutBody .fsPart5 .fsBody1440 .fsHeng {
+            margin-bottom: 40px;
+        }
+
+        .aboutBody .fsPart5 .fsBody1440 .fsCnTitle {
+            margin-top: 30px;
+        }
+
+    .sb3Body {
+        width: 480px;
+        margin-left: -240px;
+        align-items: center;
+    }
+
+        .sb3Body .fsPart4 {
+            height: 205px;
+        }
+
+            .sb3Body .fsPart4 .fsBtn {
+                height: 99.75px;
+                width: 114.75px;
+            }
+
+    .dataListBody .fsMid {
+        flex: 0.65;
+    }
+
+    .dataListBody .fsRight {
+        flex: 0.25;
+    }
+
+    .indexBody .fsPart1 .fsBody1440 .fsRight, .aboutBody .fsPart3 .fsRight {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight {
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    .indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a {
+        margin-right: auto;
+    }
+
+    .yiqiBody .fsTop .fsBody1440 .fsRight {
+        width: 38%;
+    }
+
+        .yiqiBody .fsTop .fsBody1440 .fsRight .infoPart {
+            width: 400px;
+        }
+
+    .dataListBody {
+        height: auto;
+        background: none;
+    }
+
+        .dataListBody .fsLeft .fsHeng {
+            margin-left: auto;
+        }
+
+        .dataListBody .fsBody1440 {
+            flex-direction: column;
+        }
+
+        .dataListBody .fsLeft {
+            flex: 1;
+            align-items: center;
+        }
+
+    .ioioio {
+        flex: 1;
+    }
+
+    .dataListBody .fsMid {
+        height: 560px;
+        padding-bottom: 0;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .dataListBody .fsRight {
+        height: 560px;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .indexTopNav .fsMid {
+        width: 60%;
+    }
+
+    .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsRight {
+        margin-left: 20px;
+        max-width: 550px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .fsFoot .fsTop .fsMid .fsPart {
+        margin-right: 30px;
+    }
+
+    .indexBody .fsPart2 .fsBody1440 .fsBottom a {
+    width: 225px;
+    height: 225px;
+    }
+
+    .bigPart .gallery-top {
+        width: 900px;
+        margin-left: -450px;
+    }
+
+    /*.bigPart .fsPage .gallery-top .swiper-slide p {
+        text-indent: 2em;
+    }*/
+
+    .aboutBody .fsPart4 .fsPart .fsImg2 .fsShu {
+        display: none;
+    }
+
+    .aboutBody .fsPart4 .fsPart .fsImg2 .fsText {
+        margin-top: 20px;
+    }
+
+    .aboutBody .fsPart5 .fsBody1440 .fsPart .fsLeft {
+        width: 35%;
+        margin-right: 5%;
+    }
+
+    .aboutBody .fsPart5 .fsBody1440 {
+        width: 90%;
+        left: 5%;
+    }
+
+    .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-slide:hover .fsTitle {
+        height: 60px;
+        line-height: 60px;
+        bottom: 20px;
+    }
+
+    .proCenterBody .fsPart1 .fsBody1440 {
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 0;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight {
+            margin-top: 30px;
+            margin-left: 0;
+        }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft .fsHeng {
+            margin: 30px auto 25px 0;
+        }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsRight, .proCenterBody .fsPart1 .fsBody1440 .fsLeft {
+            width: 720px;
+        }
+
+            .proCenterBody .fsPart1 .fsBody1440 .fsLeft a {
+                width: 655px;
+            }
+
+    .proCenterBody .fsPart2 .swiper-slide p {
+        line-height: 20px;
+        max-width: 80%;
+        margin: 10px auto 10px auto;
+    }
+
+    .yiqiBody .fsBottom .fsPart2 .infoPart .fsText, .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsLeft .fsText {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .erBody .fsPart {
+        flex-direction: column;
+    }
+
+        .erBody .fsPart .fsRight {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .erBody .fsPart .fsLeft {
+            margin: 10px auto;
+        }
+
+        .erBody .fsPart .fsRight p {
+            max-width: none;
+        }
+
+
+
+    .aboutBody .fsPart3 {
+        padding: 30px 0;
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText {
+        max-height:120px;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    .indexBody .fsPart2 .fsBody1440 .fsBottom a {
+    width: 32.5%;
+    height: 280px;
+}
+
+    .serviceListBody .fsPart {
+        flex-direction: column;
+    }
+
+        .serviceListBody .fsPart:nth-child(2) {
+            flex-direction: column;
+        }
+
+        .serviceListBody .fsPart .fsLeft {
+            width: 100%;
+            margin: 20px auto;
+            padding-right: 0;
+            max-width: 720px;
+        }
+        
+        
+
+    .serviceListBody .fsPart {
+        margin-top: 40px;
+    }
+
+        .serviceListBody .fsPart:nth-child(2n) .fsLeft {
+            padding-left: 0;
+        }
+
+        .serviceListBody .fsPart:nth-child(3) .fsLeft .fsMore {
+            margin-right: auto;
+            margin-left: 0 !important;
+        }
+
+        .serviceListBody .fsPart .fsLeft .fsMore {
+            margin-top: 20px;
+        }
+
+    .sb3Body {
+        width: 630px;
+        margin-left: -315px;
+        align-items: center;
+    }
+
+        .sb3Body .fsPart4 {
+            height: 270px;
+        }
+
+            .sb3Body .fsPart4 .fsBtn {
+                width: 153px;
+                height: 133px;
+            }
+
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText {
+        max-height: 150px;
+    }
+
+    .indexBody .fsPart1 .fsBody1440 .fsLeft .fsMore {
+        margin-top: 30px;
+    }
+
+    .indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom {
+        margin: 50px auto 70px 0;
+    }
+
+    .indexBody .fsPart3 .fsBody1440 .fsRight a {
+        width: 32%;
+    }
+
+    .indexBody .fsPart1 .fsBody1440 .fsLeft .fsCnTitle {
+        margin-top: 130px;
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTime {
+        margin-top: 15px;
+    }
+
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle {
+        margin-top: 10px;
+        height: 90px;
+    }
+
+    .fsFoot .fsTop {
+        justify-content: space-around;
+    }
+
+        .fsFoot .fsTop .fsLeft {
+            display: none;
+        }
+
+    .xjxj {
+        margin: 70px auto 0 auto;
+    }
+
+    @-webkit-keyframes gunmove {
+        0% {
+            margin-top: 70px;
+            opacity: 1;
+        }
+
+        100% {
+            bottom: 100px;
+            opacity: 0;
+        }
+    }
+
+    @keyframes gunmove {
+        0% {
+            margin-top: 70px;
+            opacity: 1;
+        }
+
+        100% {
+            bottom: 100px;
+            opacity: 0;
+        }
+    }
+
+    .yiqiBody .fsTop .fsBody1440 {
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+
+        .yiqiBody .fsTop .fsBody1440 .fsRight {
+            width: 650px;
+            margin: 20px auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .yiqiBody .fsTop .fsBody1440 .fsRight .fsTitle {
+                margin: 0 auto 40px auto;
+            }
+
+            .yiqiBody .fsTop .fsBody1440 .fsRight .fsImg1, .yiqiBody .fsTop .fsBody1440 .fsRight .fsImg2 {
+                display: none !important;
+            }
+
+    .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsRight {
+        max-width: 500px;
+    }
+
+
+.dataListBody{padding-top: 30px;padding-bottom: 50px}
+.dataListBody .fsLeft .fsHeng{margin: 0;margin-top: 15px}
+.dataListBody .fsLeft{width: 100%}
+.ioioio{width: 100%}
+.dataListBody .fsMid ul{padding-top: 30px;overflow: hidden;}
+.dataListBody .fsMid .fsPart{float: left;width: 33%;}
+.dataListBody .fsLeft .fsCnTitle{font-size: 30px}
+.dataListBody .fsLeft .fsEnTitle{font-size: 26px;margin-top: 10px}
+.dataListBody .fsMid .fsPart p{font-size: 24px;width: 100%}
+.dataListBody .fsMid .fsPart:nth-of-type(1){text-align: left}
+.dataListBody .fsMid .fsPart:nth-of-type(4){text-align: left}
+.dataListBody .fsMid .fsPart:nth-of-type(2){text-align: center;}
+.dataListBody .fsMid .fsPart:nth-of-type(5){text-align: center;}
+.dataListBody .fsMid .fsPart:nth-of-type(3){text-align: right;}
+.dataListBody .fsMid .fsPart:nth-of-type(6){text-align: right}
+/*.dataListBody .fsMid .fsPart p{text-align: left}*/
+.all1{width: 100%}
+.dataListBody .fsRight{padding-top: 10px}
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu_m {
+        display: block;
+    }
+
+    .indexTopNav .fsMid {
+        display: none;
+    }
+
+    .indexTopNav .fsRight {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .aboutBody .fsPart3 {
+        flex-direction: column;
+    }
+
+        .aboutBody .fsPart3 .fsLeft {
+            margin: 30px auto 0px auto;
+            width: 100%;
+        }
+
+        .aboutBody .fsPart3 .fsRight {
+            margin: 20px auto;
+        }
+
+    .aboutBody .fsPart4 .fsPart .fsImg2 .fsText {
+        margin-top: 0;
+    }
+
+    .xjxj {
+        display: none;
+    }
+
+    .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-container {
+        width: 90%;
+    }
+
+    .dataListBody .fsMid .fsPart .fsHeng {
+        display: none;
+    }
+
+    .dataListBody .fsMid {
+        background: url(../images/dataB.jpg) no-repeat center;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .dataListBody .fsMid .fsPart p {
+            /*text-align: center;*/
+        }
+
+    .dataListBody .fsMid {
+        flex: none;
+        width: 460px;
+    }
+
+    .dataListBody .fsRight {
+        flex: none;
+        width: 280px;
+    }
+
+    .technologyListBody .fsBottom .fsBody1440 .fsRight .fsPart {
+        flex-direction: column-reverse;
+    }
+
+    .technologyListBody .fsBottom .fsBody1440 .fsLeft .fsPart {
+        flex-direction: column;
+    }
+
+    .technologyListBody .fsBottom .fsBody1440 .fsLeft {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+        .technologyListBody .fsBottom .fsBody1440 .fsLeft .fsPart p, .technologyListBody .fsBottom .fsBody1440 .fsRight .fsPart p {
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+
+    .technologyListBody .fsBottom .fsBody1440 {
+        width: 740px;
+    }
+
+    .fsPiao2 .fsBottom .fsPart {
+        width: 660px;
+        margin: 10px auto;
+        padding: 0 20px;
+    }
+
+        .fsPiao2 .fsBottom .fsPart .fsTitle {
+            width: 300px;
+            font-size: 14px;
+        }
+
+    .lifeBodyDetail .fsBody1440 .infoPart {
+        margin: 0 auto;
+    }
+
+        .lifeBodyDetail .fsBody1440 .infoPart .fsEnText {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .lifeBodyDetail .fsBody1440 .infoPart .fsHeng {
+            margin: 15px auto 15px 0;
+        }
+
+        .lifeBodyDetail .fsBody1440 .infoPart .fsPart {
+            margin-bottom: 10px;
+        }
+
+        .lifeBodyDetail .fsBody1440 .infoPart .fsCnText {
+            margin: 10px auto 10px 0;
+        }
+
+    .compensationBodyDetail .fsBody1440 .infoPart .fsHeng {
+        margin: 15px auto 35px auto;
+    }
+
+    .lifeBodyDetail .fsBody1440 .infoPart .fsPart {
+        width: 629px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .compensationBodyDetail .fsBody1440 .infoPart .fsPart p {
+        margin-right: 15px;
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a {
+        padding-bottom: 130px;
+    }
+
+        .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo {
+            margin-top: -130px;
+        }
+
+    .cnbds {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .cnbds .fsBtn {
+            width: 25%;
+        }
+
+    .fsPiao .fsWhite {
+        width: 600px;
+        height: 520px;
+        padding: 30px 50px;
+    }
+
+        .fsPiao .fsWhite .fsPart2 {
+            height: 108px;
+        }
+
+            .fsPiao .fsWhite .fsPart2 textarea {
+                line-height: 30px;
+            }
+
+            .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsMore {
+                margin-right:5px;
+                margin-left:5px;
+            }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .proCenterBody .fsPart2 .fsTop {
+        width: 100%;
+    }
+
+    /*.proCenterBody .fsPart3 .fsBottom .fsBody1440 .fsCnText,.proCenterBody .fsPart3 .fsBottom .fsBody1440 .fsEnText {
+        margin: 0 4%;
+    }*/
+
+    /*.indexBody .fsPart2 .fsBody1440 .fsBottom {
+        margin: 30px auto 80px auto;
+    }*/
+
+    .indexBody .fsPart1 .fsBody1440 .fsLeft .fsCnTitle {
+        margin-top: 70px;
+    }
+
+
+    /*.indexBody .fsPart2 .fsBody1440 .fsBottom a .fsEnText {
+        text-align: center;
+    }
+
+    .indexBody .fsPart2 .fsBody1440 .fsBottom a .fsTop img {
+        max-width: 50%;
+    }
+
+    .indexBody .fsPart2 .fsBody1440 .fsBottom a .fsTop {
+        width: 190px;
+        height: 190px;
+    }*/
+
+    .xjxj {
+        margin: 50px auto 0 auto;
+    }
+
+    @-webkit-keyframes gunmove {
+        0% {
+            margin-top: 50px;
+            opacity: 1;
+        }
+
+        100% {
+            bottom: 100px;
+            opacity: 0;
+        }
+    }
+
+    @keyframes gunmove {
+        0% {
+            margin-top: 50px;
+            opacity: 1;
+        }
+
+        100% {
+            bottom: 100px;
+            opacity: 0;
+        }
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle {
+        width: 100%;
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle {
+        height: 60px;
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText {
+        max-height: 120px;
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsMore {
+        margin: auto auto auto 0;
+    }
+
+    .indexBody .fsPart3 .fsBody1440 .fsLeft .fsHeng {
+        display: none;
+    }
+
+    .bigPart .gallery-top {
+        width: 600px;
+        margin-left: -300px;
+    }
+
+    .bigPart .fsPage .gallery-top .swiper-slide p {
+        text-indent: -2em;
+    }
+
+    .aboutBody .fsPart4 .fsPart .fsImg2 .fsText {
+        line-height: 26px;
+    }
+
+    .aboutBody .fsPart4 .fsPart .fsImg2 .fsCnText {
+        margin-top: 10px;
+    }
+
+    .aboutBody .fsPart4 .fsPart .fsImg2 .fsEnText {
+        line-height: 24px;
+    }
+
+    .aboutBody .fsPart5 {
+        height: 800px;
+    }
+
+        .aboutBody .fsPart5 .fsBody1440 .fsPart .fsLeft {
+            width: 38%;
+            margin-right: 2%;
+        }
+
+        .aboutBody .fsPart5 .fsBody1440 {
+            width: 98%;
+            left: 1%;
+        }
+
+    .innerNav a {
+        margin: 0 1%;
+    }
+
+    .proCenterBody .fsPart3 .fsTop .grayView {
+        display: none;
+    }
+
+    .proCenterBody .fsPart3 .fsTop .fsBody1440 {
+        flex-direction: column;
+    }
+
+    .proCenterBody .fsPart3 .fsTop .fsLeft {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .proCenterBody .fsPart3 .fsTop .fsRight {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .proCenterBody .fsPart3 .fsTop {
+        padding-top: 0;
+    }
+
+    .yiqiBody .fsBottom .fsPart2 .infoPart .fsText, .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsLeft .fsText {
+        font-size: 14px;
+        line-height: 30px;
+        max-width: 300px;
+    }
+
+    .yiqiBody .fsBottom .fsPart2 .infoPart .fsCnTitle, .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsLeft .fsCnTitle {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 .fsBtn {
+        margin-left: 30px;
+    }
+
+    .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 .fsTitle {
+        font-size: 15px;
+    }
+
+    .newsList .fsPart .fsLeft {
+        width: 32%;
+        margin-right: 30px;
+    }
+
+    .lifeBodyDetail .fsBody1440 {
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .compensationBodyDetail .fsBody1440 .infoPart .fsPart:last-child {
+        margin-top: 10px;
+    }
+
+    .compensationBodyDetail .fsBody1440 .infoPart .fsHeng {
+        margin-bottom: 20px;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTime {
+        font-size: 20px;
+    }
+
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText {
+        line-height: 24px;
+        height: 72px;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsBtn {
+        margin: auto;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle {
+        height: 50px;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText img, .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle img {
+        margin-right: 10px;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsMore {
+        margin: 10px;
+    }
+
+    .newsDetailBody .fsBottom .fsBody1440 .fsRight {
+        margin: 0 auto;
+    }
+
+    .ioioio {
+        flex-direction: column;
+    }
+
+    .dataListBody .fsMid {
+        background: none;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .dataListBody .fsRight {
+        margin-top: 20px;
+        width: auto;
+        height: auto;
+    }
+
+        .dataListBody .fsRight .fsHeng {
+            display: none;
+        }
+
+        .dataListBody .fsRight .fsCnTitle {
+            text-align: left;
+        }
+
+    .dataListBody .fsLeft {
+        padding-top: 0;
+    }
+
+    .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-container {
+        width: 100%;
+    }
+
+    .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-button-prev {
+        left: 30px;
+        outline: none;
+    }
+
+    .proCenterBody .fsPart3 .fsBottom .fsBody1440 .swiper-button-next {
+        right: 30px;
+        outline: none;
+    }
+
+    .proCenterBody .fsPart2 .fsBody1440 {
+        height: 80%;
+    }
+
+    .xljgd {
+        bottom: -50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .indexBody .fsPart1 .fsBody1440 {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .indexBody .fsPart1 .fsBody1440 .fsRight {
+        display: flex;
+        width:80%;
+        margin:0 auto
+    }
+
+    .indexBody .fsPart1 .fsBody1440 .fsLeft {
+        width: 100%;
+        margin-right:0;
+    }
+
+        .indexBody .fsPart1 .fsBody1440 .fsLeft .fsBottom a {
+            margin: 0px auto;margin-right: 2%
+        }
+
+    .aboutBody .fsPart4 .fsPart .fsImg1 {
+        display: none;
+    }
+
+    .aboutBody .fsPart4 .fsPart .fsImg2 {
+        display: flex;
+    }
+
+        .aboutBody .fsPart4 .fsPart .fsImg2 .fsText {
+            line-height: 20px;
+        }
+
+    .aboutBody .fsPart4 {
+        padding: 50px 0;
+    }
+
+        .aboutBody .fsPart4 .fsHeng {
+            margin-bottom: 30px;
+        }
+
+    .aboutBody .fsPart5 {
+        height: 750px;
+    }
+
+    .innerBanner .fsMeng .fsCnTitle {
+        font-size: 40px;
+    }
+
+    .yiqiBody .fsBottom .fsPart2 .infoPart .fsText, .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsLeft .fsText {
+        font-size: 13px;
+        line-height: 26px;
+        max-width: 250px;
+    }
+
+    .dataListBody .fsRight {
+        width: 100%;
+    }
+
+    .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 .fsBtn {
+        margin-left: 20px;
+    }
+
+    .technologyListBody .fsTop .fsBody1440 .fsPart .fsPart1 .fsTitle {
+        font-size: 14px;
+    }
+
+    .newsList .fsPart .fsRight .fsText {
+        margin: 10px auto 10px 0;
+        line-height: 26px;
+        height: 52px;
+    }
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText p {
+        font-size: 12px;
+    }
+
+    .contactList .fsPart1 .fsMeng .fsHeng {
+        margin: 15px auto 15px 0;
+    }
+
+    /*.indexBody .fsPart2 .fsBody1440 .fsBottom a {
+        height: 400px;
+    }
+
+        .indexBody .fsPart2 .fsBody1440 .fsBottom a .fsTop {
+            width: 160px;
+            height: 160px;
+        }*/
+
+    .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsTitle img, .contactList .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo .fsText img {
+        margin-right: 10px;
+    }
+
+    .ssssView {
+        width: 220px;
+        height: 50px;
+        border-radius: 25px;
+    }
+
+        .ssssView input {
+            width: 150px;
+            line-height: 50px;
+            font-size: 16px;
+        }
+
+        .ssssView p {
+            line-height: 50px;
+            width: 60px;
+            font-size: 16px;
+        }
+
+    .technologyListBody .fsBottom .fsCnTitle {
+        margin-top: 100px;
+    }
+
+    .pages a {
+        outline: none !important;
+    }
+
+
+    .cnbds {
+        width: 700px;
+    }
+
+    .proCenterBody .fsPart1 .fsBody1440 .fsRight, .proCenterBody .fsPart1 .fsBody1440 .fsLeft {
+        width: 100%;
+    }
+
+        .proCenterBody .fsPart1 .fsBody1440 .fsLeft a {
+            width: 70%;
+        }
+
+    .yiqiBody .fsTop .fsBody1440 .fsRight, .yiqiBody .fsTop .fsBody1440 .fsLeft {
+        width: 100%;
+    }
+
+    .yiqiBody .fsBottom .fsPart1 .fsBody1440 .fsRight {
+        max-width: 486px;
+    }
+
+    .serviceListBody .fsPart .fsRight {
+        width: 100%;
+    }
+
+        .serviceListBody .fsPart .fsRight img {
+            width: 100%;
+        }
+
+        .serviceListBody .fsPart .fsRight .sb3Body img {
+            width: auto !important;
+        }
+
+
+    .indexBanner .swiper-slide .fsMeng .fsCnTitle {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .indexBanner .swiper-slide .fsMeng .fsCnText {
+        font-size: 30px;
+    }
+
+    .indexBody .fsPart4 .fsBody1440 .fsBottom a .newsInfo {
+        width:90%;
+        padding:0 5%;
+    }
+}
